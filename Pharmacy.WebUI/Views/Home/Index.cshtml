@@ -1,0 +1,314 @@
+﻿@using Pharmacy.BOL.Entities
+@model Pharmacy.WebUI.Models.HomeVM
+
+<header id="home" class="welcome-hero-area">
+    <div class="header-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo"> <a href="/">SORA STOK</a> </div>
+                </div>
+                <div class="col-md-9">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a class="smoth-scroll" href="#home">Home</a></li>
+                                <li><a class="smoth-scroll" href="#contactus">İletişim</a></li>
+                                <li><a class="smoth-scroll" href="/Home/Login">Giriş</a></li>
+                                <li><a class="smoth-scroll" href="/Home/Register">Üye Ol</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-slider-area">
+        <div id="welcome-slide-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#welcome-slide-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#welcome-slide-carousel" data-slide-to="1"></li>
+                <li data-target="#welcome-slide-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                @foreach (Slider hbs in Model.sliders)
+                {
+                    <div class="item @(hbs.pindex == 1 ? "active" : "")">
+
+                        <div class="single-slide-item slide-1" style="background: url(@hbs.image);
+	background-size: cover">
+                            <div class="single-slide-item-table">
+                                <div class="single-slide-item-table-cell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h2 class="font-weight-h">@Html.Raw(hbs.title)</h2>
+                                                <p class="font-weight margin-bottom-2">@hbs.description</p>
+                                                <a class="btn smoth-scroll" href="@hbs.link">@hbs.linktitle</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <a class="left welcome-control" href="#welcome-slide-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="right welcome-control" href="#welcome-slide-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- End Slider Area -->
+</header>
+
+<section id="aboutus" class="aboutus">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h5 class="margin-bottom-2 color-g"></h5>
+                    <h2>@Model.homeE.FirstOrDefault(f => f.place == 2).title</h2>
+                    <p>@Model.homeE.FirstOrDefault(f => f.place == 2).description</p>
+                </div>
+            </div>
+        </div>
+        <div class="space"></div>
+        @foreach (HomeE hbh in Model.homeE.Where(w => w.place == 3).OrderBy(o => o.pIndex))
+        {
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="sec">
+                    <div class="sec-box padding-1">
+                        <i class="lnr @hbh.FPath margin-bottom-1"></i>
+                        <h6 class="margin-bottom-1 font-weight color-g">@hbh.title</h6>
+                        <p>@hbh.description</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<div class="clearfix"></div>
+@*<section id="services" class="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2 class="font-weight">OUR SERVICES</h2>
+                    <span class="dots dt-theme margin-bottom-1"></span>
+                    <p class="font-weight">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                </div>
+                <div class="section">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="item">
+                            <i class="fa fa-dashboard"></i>
+                            <h3 class="font-weight">Digital Brandings</h3>
+                            <p class="line-height-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="item">
+                            <i class="fa fa-wordpress"></i>
+                            <h3 class="font-weight">Wordpress Development</h3>
+                            <p class="line-height-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="item">
+                            <i class="fa fa-mobile-phone"></i>
+                            <h3 class="font-weight">Mobile App Development</h3>
+                            <p class="line-height-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="item">
+                            <i class="fa fa-gamepad"></i>
+                            <h3 class="font-weight">Online Marketing</h3>
+                            <p class="line-height-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="item">
+                            <i class="fa fa-camera-retro"></i>
+                            <h3 class="font-weight">Photography</h3>
+                            <p class="line-height-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="item">
+                            <i class="fa fa-shield"></i>
+                            <h3 class="font-weight">SEO</h3>
+                            <p class="line-height-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>*@
+<div class="clearfix"></div>
+<!--Service end-->
+<!--Pricing start-->
+@*<section id="pricing" class="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2 class="font-weight">PRICING TABLE</h2>
+                    <span class="dots dt-theme margin-bottom-1"></span>
+                    <p class="font-weight">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pricing-area pricing-one pt-60 pb-30 bg-gray">
+        <div class="container">
+            <div class="row row-tb-0">
+                <div class="col-md-4 pt-20 mb-20">
+                    <div class="pricing-plan ptb-30 prl-20">
+                        <div class="plan-header">
+                            <h4 class="t-uppercase mb-10 font-20 font-weight-h">standard</h4>
+                            <h2 class="price color-g font-40 mb-10">$59</h2>
+                            <p class="t-uppercase font-weight">Per month</p>
+                        </div>
+                        <div class="plan-main ptb-20">
+                            <ul>
+                                <li><i class="fa fa-check"></i>Branded Reports</li>
+                                <li><i class="fa fa-check"></i>25 Analytics Compaign</li>
+                                <li><i class="fa fa-close"></i>1,900 Keywords</li>
+                                <li><i class="fa fa-close"></i>4 Social Account</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-20">
+                    <div class="pricing-plan plan-recommended ptb-30 prl-20">
+                        <i class="fa fa-bookmark"></i>
+                        <div class="plan-header">
+                            <h3 class="t-uppercase mb-10 font-20 font-weight-h">Professional</h3>
+                            <h2 class="price color-green font-40 mb-10">$99</h2>
+                            <p class="t-uppercase font-weight">Per month</p>
+                        </div>
+                        <div class="plan-main ptb-20">
+                            <ul>
+                                <li><i class="fa fa-check"></i>Branded Reports</li>
+                                <li><i class="fa fa-check"></i>25 Analytics Compaign</li>
+                                <li><i class="fa fa-check"></i>1,900 Keywords</li>
+                                <li><i class="fa fa-close"></i>4 Social Account</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-20 mb-20">
+                    <div class="pricing-plan ptb-30 prl-20">
+                        <div class="plan-header">
+                            <h3 class="t-uppercase mb-10 font-20 font-weight-h">Entercprise</h3>
+                            <h2 class="price color-g font-40 mb-10">$199</h2>
+                            <p class="t-uppercase font-weight">Per month</p>
+                        </div>
+                        <div class="plan-main ptb-20">
+                            <ul>
+                                <li><i class="fa fa-check"></i>Branded Reports</li>
+                                <li><i class="fa fa-check"></i>25 Analytics Compaign</li>
+                                <li><i class="fa fa-check"></i>1,900 Keywords</li>
+                                <li><i class="fa fa-check"></i>4 Social Account</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>*@
+<!--Pricing end-->
+
+<div class="clearfix"></div>
+<section id="contactus" class="contactus">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2 class="font-weight">İLETİŞİM</h2>
+                    <span class="dots dt-theme margin-bottom-1"></span>
+                    <p class="font-weight">Bizimle iletişime geçmek için mesajınızı gönderin!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section contact-us">
+        <div class="container">
+            <div class="outer-box">
+                <div class="company-data">
+                    <ul class="row">
+                        <li class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="box">
+                                <span class="lnr lnr-location"></span>
+                                wissen Akdemia<br>
+                                Beşiktaş-İstanbul
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="box">
+                                <span class="lnr lnr-phone"></span>
+                                +1-952-356-9282<br>+1-385-200-5438
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="box">
+                                <span class="lnr lnr-bubble"></span>
+                                lank@yourdomain.com<br>
+                                info@yourdomain.com
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Contact Form Start -->
+                <div class="form-box clearfix">
+                    <form class="shake" action="/Home/index" method="post">
+                        @Html.AntiForgeryToken()
+                        <div class="form-group col-sm-6">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Adınız Soyadınız*" required data-error="Ad alanı zorunludur">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Mail Adresiniz">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Telefon Numaranız*" required data-error="Telefon alanı zorunludur">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <input type="file" class="form-control" name="file" id="file">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <textarea id="message" name="message" class="form-control" rows="6" placeholder="Mesajınız" required></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="submit" class="btn" value="Gönder" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Contact end-->

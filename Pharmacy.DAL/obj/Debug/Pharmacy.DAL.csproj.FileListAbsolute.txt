@@ -1,0 +1,70 @@
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.dll.config
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csproj.CopyComplete
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\obj\Debug\Eczane.DAL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.DAL\obj\Debug\Eczane.DAL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.dll.config
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.BOL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.BOL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csprojAssemblyReference.cache
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csproj.CopyComplete
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\obj\Debug\Eczane.DAL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.DAL\obj\Debug\Eczane.DAL.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.dll.config
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.BOL.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.BOL.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csprojAssemblyReference.cache
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csproj.CopyComplete
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\obj\Debug\Eczane.DAL.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.DAL\obj\Debug\Eczane.DAL.pdb
+F:\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.dll.config
+F:\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.dll
+F:\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.pdb
+F:\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.BOL.dll
+F:\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.dll
+F:\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.BOL.pdb
+F:\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.xml
+F:\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csprojAssemblyReference.cache
+F:\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csproj.CoreCompileInputs.cache
+F:\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csproj.CopyComplete
+F:\Pharmacy\Pharmacy.DAL\obj\Debug\Eczane.DAL.dll
+F:\Pharmacy\Pharmacy.DAL\obj\Debug\Eczane.DAL.pdb
+D:\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csprojAssemblyReference.cache
+D:\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csproj.CoreCompileInputs.cache
+D:\Pharmacy\Pharmacy.DAL\obj\Debug\Eczane.DAL.dll
+D:\Pharmacy\Pharmacy.DAL\obj\Debug\Eczane.DAL.pdb
+D:\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.dll.config
+D:\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.dll
+D:\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.DAL.pdb
+D:\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.BOL.dll
+D:\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.dll
+D:\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Pharmacy\Pharmacy.DAL\bin\Debug\Eczane.BOL.pdb
+D:\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.xml
+D:\Pharmacy\Pharmacy.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Pharmacy\Pharmacy.DAL\obj\Debug\Pharmacy.DAL.csproj.CopyComplete

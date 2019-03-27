@@ -1,0 +1,51 @@
+﻿@using Pharmacy.BOL.Entities
+@model IEnumerable<FAQCategory>
+
+<div class="secondary_page_wrapper">
+
+    <div class="container">
+
+        <!-- - - - - - - - - - - - - - Breadcrumbs - - - - - - - - - - - - - - - - -->
+
+        <ul class="breadcrumbs">
+
+            <li><a href="index.html">Home</a></li>
+            <li>FAQ</li>
+
+        </ul>
+
+        <div class="row">
+
+            <aside class="col-md-3 col-sm-4">
+
+                <!-- - - - - - - - - - - - - - Information - - - - - - - - - - - - - - - - -->
+
+                <section class="section_offset">
+
+                    <h3>Kategoriler</h3>
+
+                    <ul class="theme_menu">
+                        @foreach (FAQCategory item in Model)
+                        {
+                            <li><a onclick="faqAdd(this);" style="cursor:pointer">@item.name</a></li>
+                        }
+
+
+                    </ul>
+
+                </section>
+            </aside>
+            <main class="col-md-9 col-sm-8 addfaq">
+
+                <h1>FAQ</h1>
+                <dl class="accordion">
+                    <dt>Vestibulum ante ipsum primis in faucibus?</dt>
+                    <dd>Nam elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. </dd>
+
+            </main><!--/ [col]-->
+
+        </div><!--/ .row-->
+
+    </div><!--/ .container-->
+
+</div><!--/ .page_wrapper-->

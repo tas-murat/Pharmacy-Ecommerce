@@ -1,0 +1,110 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Basic page needs
+    ============================================ -->
+    <title>ShopMe | Category Page v1</title>
+    <meta charset="utf-8">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Mobile specific metas
+    ============================================ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Favicon
+    ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="/content/start/images/fav_icon.ico">
+
+    <!-- Google web fonts
+    ============================================ -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Libs CSS
+    ============================================ -->
+    <link rel="stylesheet" href="/content/start/css/animate.css">
+    <link rel="stylesheet" href="/content/start/css/fontello.css">
+    <link rel="stylesheet" href="/content/start/css/bootstrap.min.css">
+
+    <!-- Theme CSS
+    ============================================ -->
+
+    <link rel="stylesheet" href="/content/start/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/content/start/js/fancybox/source/jquery.fancybox.css">
+    <link rel="stylesheet" href="/content/start/js/fancybox/source/helpers/jquery.fancybox-thumbs.css">
+    <link rel="stylesheet" href="/content/start/js/arcticmodal/jquery.arcticmodal.css">
+    <link rel="stylesheet" href="/content/start/js/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="/content/start/css/style.css">
+    <link href="/Content/start/css/main.css" rel="stylesheet" />
+
+    <script src="/content/start/js/modernizr.js"></script>
+
+</head>
+<body>
+    <div class="wide_layout">
+
+        @{ Html.RenderAction("Header", "Home");}
+        @RenderBody()
+        <footer id="footer">
+
+            <div class="container">
+                <div class="infoblocks_container">
+
+                    <ul class="infoblocks_wrap">
+
+                        <li>
+                            <a href="#" class="infoblock type_1">
+
+                                <i class="icon-paper-plane"></i>
+                                <span class="caption"><b>Hızlı Teslimat</b></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="infoblock type_1">
+
+                                <i class="icon-lock"></i>
+                                <span class="caption"><b>Güvenli Ödeme</b></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="infoblock type_1">
+
+                                <i class="icon-money"></i>
+                                <span class="caption"><b>Sadece Eczacılara Özel</b></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            @{ Html.RenderAction("Footer", "Home");}
+        </footer>
+    </div>
+    <span class="spanMenuIndex" style="display:none">@ViewBag.ActiveIndex</span>
+    <!-- Include Libs & Plugins
+    ============================================ -->
+    <script src="/content/start/js/jquery-2.1.1.min.js"></script>
+    <script src="/content/start/js/jquery-ui.min.js"></script>
+    <script src="/content/start/js/queryloader2.min.js"></script>
+    <script src="/content/start/js/jquery.elevateZoom-3.0.8.min.js"></script>
+    <script src="/content/start/js/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="/content/start/js/fancybox/source/helpers/jquery.fancybox-media.js"></script>
+    <script src="/content/start/js/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+    <script src="/content/start/js/jquery.appear.js"></script>
+    <script src="/content/start/js/jquery.countdown.plugin.min.js"></script>
+    <script src="/content/start/js/jquery.countdown.min.js"></script>
+    <script src="/content/start/js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/content/start/twitter/jquery.tweet.min.js"></script>
+    <script src="/content/start/js/arcticmodal/jquery.arcticmodal.js"></script>
+    <script src="/content/start/js/colorpicker/colorpicker.js"></script>
+    <script src="/content/start/js/retina.min.js"></script>
+    <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js"></script>
+
+    <!-- Theme files
+    ============================================ -->
+    <script src="/content/start/js/theme.plugins.js"></script>
+    <script src="/content/start/js/theme.core.js"></script>
+    <script src="/Content/start/js/main.js"></script>
+    <script src="/Content/start/js/jscart.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+﻿@using Pharmacy.BOL.Entities;
+@model IEnumerable<Favorite>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="secondary_page_wrapper">
+
+    <div class="container">
+        <ul class="breadcrumbs">
+
+            <li><a href="/Member">Ana Sayfa</a></li>
+            <li>Favorilerim</li>
+
+        </ul>
+        <div class="row">
+           @{ Html.RenderAction("Sidebar", "Profil");}
+            <main class="col-md-9 col-sm-8">
+
+                <h1>Favorilerim</h1>
+
+                <div class="top_box on_the_sides">
+
+                    <div class="left_side v_centered">
+
+                        <p class="visible_pages">Showing 1 to 10 of 30 (3 pages)</p>
+
+                        <span>Show:</span>
+
+                        <div class="custom_select">
+
+                            <select name="">
+
+                                <option value="10">10</option>
+                                <option value="9">9</option>
+                                <option value="8">8</option>
+                                <option value="7">7</option>
+                                <option value="6">6</option>
+                                <option value="5">5</option>
+                                <option value="4">4</option>
+                                <option value="3">3</option>
+                                <option value="2">2</option>
+                                <option value="1">1</option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <div class="right_side">
+
+                        <ul class="pags">
+
+                            <li><a href="#"></a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#"></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div><!--/ .top_box -->
+
+                <div class="table_wrap">
+
+                    <table class="table_type_1 wishlist_table">
+                        <thead>
+                            <tr>
+                                <th class="product_image_col">Ürün Resmi</th>
+                                <th class="product_title_col">ürün Adı ve Satıcısı</th>
+                                <th class="product_price_col">Fiyatı</th>
+                                <th class="product_qty_col">Adet</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Product hbf in Model.Select(s=>s.Product))
+                            {
+                                <tr>
+                                    <td data-title="Product Image">
+
+                                        <a href="#"><img src="@hbf.Pictures.OrderBy(o=>o.pIndex).FirstOrDefault().FPath" alt="@hbf.name"></a>
+
+                                    </td>
+                                    <td data-title="Product Name and Category">
+
+                                        <a href="#" class="product_title">@hbf.name</a>
+
+                                        <a href="#">@hbf.Seller.name</a>
+
+                                    </td>
+                                    <td data-title="Price" class="total">@hbf.price</td>
+                                    <td data-title="Quantity">
+                                        <div class="qty min clearfix">
+                                            <button class="theme_button" data-direction="minus">&#45;</button>
+                                            <input type="text" name="" value="1">
+                                            <button class="theme_button" data-direction="plus">&#43;</button>
+                                        </div>
+                                    </td>
+                                    <td data-title="Action">
+                                        <ul class="buttons_col">
+                                            <li>
+                                                <a href="#" class="button_blue">Sepete Ekle</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="button_dark_grey">Favorilerden Kaldır</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            }
+
+                        </tbody>
+
+                    </table>
+
+                </div><!--/ .table_wrap -->
+
+                <div class="bottom_box on_the_sides">
+
+                    <div class="left_side v_centered">
+
+                        <p class="visible_pages">Showing 1 to 10 of 30 (3 pages)</p>
+
+                        <span>Show:</span>
+
+                        <div class="custom_select">
+
+                            <select name="">
+
+                                <option value="10">10</option>
+                                <option value="9">9</option>
+                                <option value="8">8</option>
+                                <option value="7">7</option>
+                                <option value="6">6</option>
+                                <option value="5">5</option>
+                                <option value="4">4</option>
+                                <option value="3">3</option>
+                                <option value="2">2</option>
+                                <option value="1">1</option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <div class="right_side">
+
+                        <ul class="pags">
+
+                            <li><a href="#"></a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#"></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div><!--/ .bottom_box -->
+
+            </main><!--/ [col]-->
+
+        </div><!--/ .row-->
+
+    </div><!--/ .container-->
+
+</div><!--/ .page_wrapper-->

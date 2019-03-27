@@ -1,0 +1,64 @@
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BLL.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BLL.pdb
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.csprojAssemblyReference.cache
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.pdb
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BOL.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.pdb
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.dll.config
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BOL.pdb
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\de\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\it\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\ja\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.csproj.CopyComplete
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BLL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BLL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.dll.config
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\de\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\es\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\fr\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\it\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\ja\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\ko\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\ru\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\zh-Hant\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.csproj.CopyComplete
+D:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.pdb
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BLL.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BLL.pdb
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BOL.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.pdb
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.dll.config
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BOL.pdb
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\de\EntityFramework.resources.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\es\EntityFramework.resources.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\fr\EntityFramework.resources.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\it\EntityFramework.resources.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\ja\EntityFramework.resources.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\ko\EntityFramework.resources.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\ru\EntityFramework.resources.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\zh-Hant\EntityFramework.resources.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.csprojAssemblyReference.cache
+F:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.csproj.CoreCompileInputs.cache
+F:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.csproj.CopyComplete
+F:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.dll
+F:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.pdb

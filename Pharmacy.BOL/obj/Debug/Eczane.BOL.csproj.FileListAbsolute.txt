@@ -1,0 +1,24 @@
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BOL\bin\Debug\Eczane.BOL.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BOL\bin\Debug\Eczane.BOL.pdb
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.csprojAssemblyReference.cache
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.csproj.CoreCompileInputs.cache
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.pdb
+F:\My proje\Eczane\Eczane.BOL\bin\Debug\Eczane.BOL.dll
+F:\My proje\Eczane\Eczane.BOL\bin\Debug\Eczane.BOL.pdb
+F:\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.csprojAssemblyReference.cache
+F:\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.csproj.CoreCompileInputs.cache
+F:\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.dll
+F:\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.BOL\bin\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BOL\bin\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.pdb
+F:\vs projeler\My proje\Eczane\Eczane.BOL\bin\Debug\Eczane.BOL.dll
+F:\vs projeler\My proje\Eczane\Eczane.BOL\bin\Debug\Eczane.BOL.pdb
+F:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.csprojAssemblyReference.cache
+F:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.csproj.CoreCompileInputs.cache
+F:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.dll
+F:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.pdb

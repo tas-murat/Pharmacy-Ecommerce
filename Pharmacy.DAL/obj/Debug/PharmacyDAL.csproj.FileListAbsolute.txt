@@ -1,0 +1,14 @@
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.dll.config
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.dll
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.dll
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.xml
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\PharmacyDAL.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\PharmacyDAL.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\PharmacyDAL.csproj.CopyComplete
+D:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.dll
+D:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.pdb

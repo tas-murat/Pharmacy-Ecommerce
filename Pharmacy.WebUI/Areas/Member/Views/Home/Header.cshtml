@@ -1,0 +1,162 @@
+﻿@using Pharmacy.BOL.Entities;
+@using Pharmacy.WebUI.Areas.Member.Helpers
+@model Pharmacy.WebUI.Areas.Member.ViewModels.HeaderVM
+
+<header id="header" class="type_6">
+
+    <div class="top_part">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-7 col-sm-8">
+                    <p>Welcom visitor <a href="#">@Session["AdSoyad"]</a></p>
+
+                </div>
+
+                <div class="col-lg-6 col-md-5 col-sm-4">
+
+                    <div class="clearfix">
+
+                        <div class="alignright site_settings">
+
+                            <span class="current open_"><img src="" alt="">Hesabım</span>
+                            <ul class="dropdown site_setting_list language">
+
+                                <li class="animated_item"><a href="#"><img src="" alt=""> English</a></li>
+                                <li class="animated_item"><a href="#"><img src="" alt=""> German</a></li>
+                                <li class="animated_item"><a href="/Home/logout"><img src="" alt=""> Çıkış</a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="alignright site_settings currency">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="bottom_part">
+        <div class="container">
+            <div class="row">
+                <div class="main_header_row">
+                    <div class="col-sm-3">
+                        <a href="/Member">
+                            <img src="/content/start/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="call_us">
+                            <span>Call us toll free:</span> <b>+1888 234 5678</b>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <form class="clearfix search">
+                            <input type="text" name="search" tabindex="1" placeholder="Ürün ara..." class="alignleft">
+
+                            <button class="button_blue def_icon_btn alignleft"></button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main_navigation_wrap">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xs-12">
+                    <div class="sticky_inner type_2">
+                        <div class="nav_item size_4">
+                            <button class="open_menu"></button>
+                            <ul class="theme_menu cats dropdown">
+                                @foreach (Category hbc in Model.Categories.Where(w => w.ParentID == null))
+                                {
+                                    <li class="has_megamenu animated_item">
+                                        <a href="@Url.Action("category","product",new {id=hbc.ID })">@hbc.name</a>
+                                        @if (hbc.Children.Any())
+                                        {
+                                            <div class="mega_menu clearfix">
+                                                <div class="mega_menu_item">
+                                                    <ul class="list_of_links">
+                                                        @foreach (Category item in hbc.Children)
+                                                        {
+                                                            <li><a href="@Url.Action("category","product",new {id=item.ID })">@item.name</a></li>
+                                                        }
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        }
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="nav_item">
+
+                            <nav class="main_navigation">
+
+                                <ul class="topnav">
+
+                                    <li><a href="/Member">Ana Sayfa</a></li>
+                                    <li><a href="@Url.Action("index","Profil")">Hesabım</a></li>
+                                    <li><a href="@Url.Action("index","Account")">Ürünlerim</a></li>
+                                    <li><a href="@Url.Action("index","Order")">Siparişlerim</a></li>
+                                    <li><a href="@Url.Action("FAQ","Home")">SSS</a></li>
+                                    <li><a href="@Url.Action("contact","Home")">İletişim</a></li>
+                                </ul>
+
+                            </nav>
+
+                        </div>
+                        <div class="nav_item size_4">
+
+                            <a href="@Url.Action("index","wishList")" class="wishlist_button" data-amount="5"></a>
+
+                        </div>
+                        <div class="nav_item size_3">
+
+                            <button id="open_shopping_cart" onclick="ajaxCartAdd(this);"  data-amount="">
+                                <b class="title" >Sepetim</b>
+                                <b class="total_price productCount">@CartHelper.CartCount()</b>
+                            </button>
+                            <input type="hidden" value="0" class="kontrol"/>
+                            <div class="shopping_cart dropdown ">
+
+                                <div class="animated_item cartshow">
+
+                                    <p class="title">Sepete eklediğiniz Ürünler</p>
+
+                                </div>
+                                <div class="animated_item">
+                                    <ul class="total_info">
+                                        <li><span class="price"></span> </li>
+
+                                        <li class="total"><b class="totaladd"></b></li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="animated_item">
+
+                                    <a href="#" class="button_grey">Sepete Git</a>
+
+                                    <a href="#" class="button_blue">Sipariş Ver</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

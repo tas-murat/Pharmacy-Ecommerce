@@ -1,0 +1,156 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Nephos :: Modern Bulma Ecommerce App and Dashboard</title>
+    <link rel="icon" type="image/png" href="/content/member/assets/images/favicon.png" />
+    <!--Core CSS -->
+    <link rel="stylesheet" href="/content/member/assets/css/bulma.css">
+    <link rel="stylesheet" href="/content/member/assets/css/core.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+
+    <!-- plugins -->
+    <link rel="stylesheet" href="/content/member/assets/js/slick/slick.css">
+    <link rel="stylesheet" href="/content/member/assets/js/slick/slick-theme.css">
+    <link rel="stylesheet" href="/content/member/assets/js/webuipopover/jquery.webui-popover.min.css">
+    <link rel="stylesheet" href="/content/member/assets/js/izitoast/css/iziToast.min.css">
+    <link rel="stylesheet" href="/content/member/assets/js/zoom/zoom.css">
+    <link rel="stylesheet" href="/content/member/assets/js/jpcard/card.css">
+    <link rel="stylesheet" href="/content/member/assets/css/chosen/chosen.css">
+    <link rel="stylesheet" href="/content/member/assets/css/icons.min.css">
+    <link href="/Content/member/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Pageloader -->
+    <div class="pageloader"></div>
+    <div class="infraloader is-active"></div>
+
+    <!-- Main wrapper -->
+    <div class="shop-wrapper container-fluid">
+
+        <!-- Main section -->
+        <div class="section">
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Authentication Layout -->
+                <div class="columns account-header is-auth">
+                    <div class="column is-10 is-offset-1 is-tablet-landscape-padded">
+                        <!-- Title -->
+                        <div class="auth-title">
+                            <h2>Giriş</h2>
+                            <a href="/" class="button feather-button is-small primary-button upper-button raised is-hidden-mobile">
+                                <span>Ana Sayfa</span>
+                            </a>
+                            <img class="brand-filigrane" src="/content/member/assets/images/logo/nephos-greyscale.svg" alt="">
+                        </div>
+                        <!-- Card -->
+                        <div class="flat-card is-auto is-auth-form">
+                            <div class="columns is-gapless is-flex-mobile">
+                                <!-- Image Columns -->
+                                <div class="column is-6 has-text-centered image-column is-padded">
+                                    <div class="store-wrapper">
+                                        <img src="/content/member/assets/images/logo/nephos-white.svg" alt="">
+                                        <div class="title">
+                                            SoraStok
+                                        </div>
+                                        <div class="subtitle">Zaten Bir Hesabın Var Mı?<a href="/Home/Login">Giriş</a></div>
+                                    </div>
+                                    <div class="nephos-overlay"></div>
+                                </div>
+                                <!-- Login/Register form -->
+                                <div class="column is-6 is-mobile-padded">
+
+                                    <div class="tabs-wrapper animated-tabs">
+                                        <!-- Tabs -->
+                                        <div class="tabs is-form-tabs">
+                                            <ul>
+                                                <li class="is-active" data-tab="register"><a>Üye Ol</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- Register form -->
+                                        <div id="register" class="navtab-content is-active">
+                                            <form action="/Home/Register" method="post">
+                                                @Html.AntiForgeryToken()
+                                                <!-- Form Control -->
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="control">
+                                                            <label class="auth-label">Ad*</label>
+                                                            <input type="text" name="name" class="input" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="control">
+                                                            <label class="auth-label">Soyad*</label>
+                                                            <input type="text" name="surname" class="input" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="control">
+                                                    <label class="auth-label">Eczane Adı</label>
+                                                    <input type="text" name="pharmacyName" class="input" placeholder="">
+                                                </div>
+                                                <div class="control">
+                                                    <label class="auth-label">Telefon Numarası*</label>
+                                                    <input type="text" name="phone" class="input" placeholder="(539) xxx xx xx">
+                                                </div>
+                                                <div class="control">
+                                                    <label class="auth-label">Mail Adresi*</label>
+                                                    <input type="email" name="email" class="input" placeholder="">
+                                                </div>
+                                                <div class="control">
+                                                    <label class="auth-label">Kullanıcı Adı*</label>
+                                                    <input type="text" name="username" class="input" placeholder="">
+                                                </div>
+                                                <!-- Form Control -->
+                                                <div class="control">
+                                                    <label class="auth-label">Şifre*</label>
+                                                    <input type="password" name="password" class="input" placeholder="">
+                                                </div>
+                                                <!-- Form Control -->
+                                                <div class="control">
+                                                    <label class="auth-label">Şifre Tekrar*</label>
+                                                    <input type="password" name="password2" class="input" placeholder="">
+                                                </div>
+                                                <!-- Form Submit -->
+                                                <div class="button-wrapper">
+                                                    <button type="submit" class="button feather-button is-small primary-button upper-button raised">
+                                                        <span>Üye Ol</span>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Login/Register form -->
+                            </div>
+                        </div>
+                        <!-- Card -->
+                    </div>
+                </div>
+                <!-- Authentication Layout -->
+            </div>
+            <!-- /Container -->
+        </div>
+        <!-- /Main section -->
+    </div>
+    <!-- /Main wrapper -->
+    <!-- Concatenated plugins -->
+    <script src="/content/member/assets/js/app.js"></script>
+    <!-- Helios js -->
+    <script src="/content/member/assets/js/nephos.js"></script>
+    <script src="~/Content/member/js/jq.js"></script>
+    <script src="~/Content/member/js/bootstrap.min.js"></script>
+</body>
+</html>

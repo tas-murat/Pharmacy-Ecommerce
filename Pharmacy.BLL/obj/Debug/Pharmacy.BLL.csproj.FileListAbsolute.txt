@@ -1,0 +1,128 @@
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BLL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BLL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.DAL.dll.config
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\de\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\es\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\fr\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\it\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\ja\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\ko\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\ru\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\bin\Debug\zh-Hant\EntityFramework.resources.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Pharmacy.BLL.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Pharmacy.BLL.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Pharmacy.BLL.csproj.CopyComplete
+D:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BLL\obj\Debug\Eczane.BLL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BLL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BLL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.dll.config
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\de\EntityFramework.resources.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\es\EntityFramework.resources.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\fr\EntityFramework.resources.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\it\EntityFramework.resources.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\ja\EntityFramework.resources.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\ko\EntityFramework.resources.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\ru\EntityFramework.resources.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\bin\Debug\zh-Hant\EntityFramework.resources.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csproj.CopyComplete
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\obj\Debug\Eczane.BLL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BLL\obj\Debug\Eczane.BLL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BLL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BLL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BOL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.dll.config
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BOL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\de\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\it\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\ja\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csprojAssemblyReference.cache
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csproj.CopyComplete
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\obj\Debug\Eczane.BLL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BLL\obj\Debug\Eczane.BLL.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BLL.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BLL.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BOL.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.dll.config
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BOL.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\de\EntityFramework.resources.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\it\EntityFramework.resources.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\ja\EntityFramework.resources.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csprojAssemblyReference.cache
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csproj.CopyComplete
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\obj\Debug\Eczane.BLL.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.BLL\obj\Debug\Eczane.BLL.pdb
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BLL.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BLL.pdb
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BOL.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.pdb
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.dll.config
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BOL.pdb
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\de\EntityFramework.resources.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\es\EntityFramework.resources.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\fr\EntityFramework.resources.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\it\EntityFramework.resources.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\ja\EntityFramework.resources.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\ko\EntityFramework.resources.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\ru\EntityFramework.resources.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Pharmacy\Pharmacy.BLL\bin\Debug\zh-Hant\EntityFramework.resources.dll
+F:\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csprojAssemblyReference.cache
+F:\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csproj.CoreCompileInputs.cache
+F:\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csproj.CopyComplete
+F:\Pharmacy\Pharmacy.BLL\obj\Debug\Eczane.BLL.dll
+F:\Pharmacy\Pharmacy.BLL\obj\Debug\Eczane.BLL.pdb
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BLL.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BLL.pdb
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BOL.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.pdb
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.DAL.dll.config
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\Eczane.BOL.pdb
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\de\EntityFramework.resources.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\es\EntityFramework.resources.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\fr\EntityFramework.resources.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\it\EntityFramework.resources.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\ja\EntityFramework.resources.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\ko\EntityFramework.resources.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\ru\EntityFramework.resources.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Pharmacy\Pharmacy.BLL\bin\Debug\zh-Hant\EntityFramework.resources.dll
+D:\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csprojAssemblyReference.cache
+D:\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csproj.CoreCompileInputs.cache
+D:\Pharmacy\Pharmacy.BLL\obj\Debug\Pharmacy.BLL.csproj.CopyComplete
+D:\Pharmacy\Pharmacy.BLL\obj\Debug\Eczane.BLL.dll
+D:\Pharmacy\Pharmacy.BLL\obj\Debug\Eczane.BLL.pdb

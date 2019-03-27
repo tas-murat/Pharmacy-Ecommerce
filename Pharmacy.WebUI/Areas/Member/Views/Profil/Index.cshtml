@@ -1,0 +1,73 @@
+﻿@using Pharmacy.BOL.Entities;
+@model Seller
+ 
+
+<div class="secondary_page_wrapper">
+
+    <div class="container">
+        <ul class="breadcrumbs">
+
+            <li><a href="/Member">Ana Sayfa</a></li>
+            <li>Profilim</li>
+
+        </ul>
+        <div class="row">
+            @{ Html.RenderAction("Sidebar", "Profil");}
+            <main class="col-md-9 col-sm-8">
+
+                <h1>Profilim</h1>
+                
+                <div class="top_box on_the_sides">
+                    <section class="section_offset">
+                        <h3></h3>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="table_wrap">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>@Html.DisplayNameFor(model => model.username)</th>
+                                            <td>@Html.DisplayFor(model => model.username)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>@Html.DisplayNameFor(model => model.name)</th>
+                                            <td>@Html.DisplayFor(model => model.name)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>@Html.DisplayNameFor(model => model.surname)</th>
+                                            <td>@Html.DisplayFor(model => model.surname)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>@Html.DisplayNameFor(model => model.email)</th>
+                                            <td>@Html.DisplayFor(model => model.email)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>@Html.DisplayNameFor(model => model.phone)</th>
+                                            <td>@Html.DisplayFor(model => model.phone)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>@Html.DisplayNameFor(model => model.pharmacyName)</th>
+                                            <td>@Html.DisplayFor(model => model.pharmacyName)</td>
+                                        </tr>
+                                    </tbody>
+
+
+                                    </table>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div style="padding-bottom:10px"><a href="@Url.Action("Edit","Profil",new { id=Model.ID})" class="button_dark_grey middle_btn">Profil Bilgilerini Düzenle</a></div>
+                                <div><a href="@Url.Action("Edit","Profil",new { id=Model.ID})" class="button_dark_grey middle_btn">Şifre Değiştir</a></div>
+                            </div>
+                        </div>
+                    </section><!--/ .section_offset -->
+                </div><!--/ .top_box -->
+
+            </main><!--/ [col]-->
+
+        </div><!--/ .row-->
+
+    </div><!--/ .container-->
+
+</div><!--/ .page_wrapper-->

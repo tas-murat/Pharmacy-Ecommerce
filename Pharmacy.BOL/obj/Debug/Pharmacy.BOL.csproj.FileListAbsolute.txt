@@ -1,0 +1,30 @@
+D:\vs projeler\My proje\Eczane\Eczane.BOL\bin\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BOL\bin\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Pharmacy.BOL.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Pharmacy.BOL.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Eczane\Eczane.BOL\obj\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csprojAssemblyReference.cache
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csproj.CoreCompileInputs.cache
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.pdb
+F:\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.dll
+F:\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.pdb
+F:\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csprojAssemblyReference.cache
+F:\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csproj.CoreCompileInputs.cache
+F:\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.dll
+F:\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.pdb
+D:\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csprojAssemblyReference.cache
+D:\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csproj.CoreCompileInputs.cache
+D:\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.dll
+D:\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.pdb
+D:\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.dll
+D:\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.pdb

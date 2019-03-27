@@ -1,0 +1,149 @@
+﻿@model Pharmacy.BOL.Entities.Product
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="secondary_page_wrapper">
+
+    <div class="container">
+
+        <ul class="breadcrumbs">
+
+            <li><a href="/Member">Ana Sayfa</a></li>
+            <li><a href="/Member/Account">Ürünler</a></li>
+            <li>Yeni Ürün</li>
+
+        </ul>
+        <div class="row">
+            @{ Html.RenderAction("Sidebar", "Profil");}
+            <main class="col-md-9 col-sm-8">
+
+                <section class="section_offset">
+
+                    <h3>Yeni Ürün</h3>
+
+                    <div class="theme_box">
+
+                        <div class="row">
+
+                            <div class="col-sm-12">
+                                <form action="/Member/Account/Create" method="post" enctype="multipart/form-data">
+                                    @Html.AntiForgeryToken()
+                                    <ul>
+                                        <li class="row">
+                                            <div class="col-xs-12">
+                                                <label for="input_1">Ürün Adı</label>
+                                                <div class="form_el">
+                                                    <input type="text" name="name">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row">
+                                            <div class="col-xs-12 col-md-6">
+                                                <label for="input_1">Ürün Fiyatı</label>
+                                                <div class="form_el">
+                                                    <input type="text" placeholder="0.00" name="price">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-md-6">
+                                                <label for="input_1">Stok</label>
+                                                <div class="form_el">
+                                                    <input type="number" name="stock">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row">
+                                            <div class="col-xs-12  col-md-6">
+                                                <label for="input_1">Barkot</label>
+                                                <div class="form_el">
+                                                    <input type="text" name="barkod">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12  col-md-6">
+                                                <label for="input_1">Son Kullanma</label>
+                                                <div class="form_el">
+                                                    <input type="date" name="expDate">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row">
+                                            <div class="col-xs-12  col-md-7">
+
+                                                <label for="select_1">Marka</label>
+                                                <div class="form_el">
+                                                    @Html.DropDownList("BrandID", (SelectList)ViewBag.BrandID, "Marka Seçiniz...");
+                                                    <input type="hidden" name="newbrand">
+                                                </div>
+
+                                            </div>
+                                            <div class="col-xs-12  col-md-5">
+                                                <div class="form_el">
+                                                    <input type="checkbox" name="" id="checkbox_1" onclick="funcnewMarka(this)">
+                                                    <label for="checkbox_1">Yeni Marka</label>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row">
+                                            <div class="col-xs-12">
+                                                <label for="textarea_1">Açıklama</label>
+                                                <div class="form_el">
+                                                    <textarea rows="2" name="description" id="textarea_1"></textarea>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row">
+                                            <div class="col-xs-12">
+                                                <label>Etiket</label>
+                                                <div class="form_el">
+                                                    <input checked type="checkbox" name="" id="checkbox_1">
+                                                    <label for="checkbox_1">Checkbox 1</label>
+                                                    <input type="checkbox" name="" id="checkbox_2">
+                                                    <label for="checkbox_2">Checkbox 2</label>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row">
+                                            <div class="col-xs-12">
+                                                <label>Kategori</label>
+                                                <div class="form_el">
+                                                    <input checked type="checkbox" name="" id="checkbox_1">
+                                                    <label for="checkbox_1">Checkbox 1</label>
+                                                    <input type="checkbox" name="" id="checkbox_2">
+                                                    <label for="checkbox_2">Checkbox 2</label>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <hr  style="margin-bottom:10px"/>
+                                        @for (int i = 1; i <= 4; i++)
+                                        {
+                                            <li class="row">
+                                                <div class="col-xs-12 col-md-6">
+                                                    <label for="input_1">Resim @i</label>
+                                                    <div class="form_el">
+                                                        <input type="file" name="Pictures">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-md-6">
+                                                    <div class="form_el">
+                                                        <img src="~/Content/start/images/arrivals_img_1.jpg" width="50px" />
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        }
+                                        <li class="row" style="margin-top:10px">
+                                            <div class="col-xs-12">
+                                                <input type="submit" class="button_blue middle_btn" value="Kaydet"/>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</div>

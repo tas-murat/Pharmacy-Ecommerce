@@ -1,0 +1,910 @@
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Eczane.WebUI.dll.config
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Eczane.WebUI.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Eczane.WebUI.pdb
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\csc.exe
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\csc.exe.config
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\csc.rsp
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\csi.exe
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\csi.exe.config
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\csi.rsp
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.AppContext.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Console.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.IO.Compression.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.IO.FileSystem.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.IO.Pipes.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Security.AccessControl.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Security.Claims.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.ValueTuple.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Xml.XPath.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\vbc.exe
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\vbc.exe.config
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\vbc.rsp
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\VBCSCompiler.exe
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Antlr3.Runtime.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Eczane.BLL.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Eczane.BOL.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\EntityFramework.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\EntityFramework.SqlServer.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Newtonsoft.Json.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Diagnostics.DiagnosticSource.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.Helpers.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.Mvc.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.Optimization.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.Razor.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.WebPages.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.WebPages.Razor.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\WebGrease.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Eczane.DAL.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Eczane.BLL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Eczane.BOL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\EntityFramework.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\EntityFramework.SqlServer.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.Helpers.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.Mvc.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.Optimization.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.Razor.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.WebPages.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Web.WebPages.Razor.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Newtonsoft.Json.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Antlr3.Runtime.pdb
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\System.Diagnostics.DiagnosticSource.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Eczane.DAL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\bin\Eczane.DAL.dll.config
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\obj\Debug\Pharmacy.WebUI.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CopyComplete
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\obj\Debug\Eczane.WebUI.dll
+D:\vs projeler\My proje\Eczane\Eczane.WebUI\obj\Debug\Eczane.WebUI.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll.config
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe.config
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.rsp
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe.config
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.rsp
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.AppContext.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Console.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Compression.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.AccessControl.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Claims.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.ValueTuple.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe.config
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.rsp
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\WebGrease.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.pdb
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll.config
+D:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CopyComplete
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll.config
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.pdb
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe.config
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.rsp
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe.config
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.rsp
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.AppContext.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Collections.Immutable.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Console.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Compression.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.AccessControl.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Claims.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Principal.Windows.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.ValueTuple.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe.config
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.rsp
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe.config
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Microsoft.Web.Infrastructure.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\WebGrease.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.pdb
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.pdb
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.pdb
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.pdb
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll.config
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csprojAssemblyReference.cache
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CoreCompileInputs.cache
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CopyComplete
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.dll
+F:\vs projeler\My proje\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.pdb
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll.config
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.pdb
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe.config
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.rsp
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe.config
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.rsp
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.AppContext.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Collections.Immutable.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Console.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Compression.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.AccessControl.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Claims.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Principal.Windows.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.ValueTuple.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe.config
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.rsp
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe.config
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Microsoft.Web.Infrastructure.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\WebGrease.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.pdb
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.pdb
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.pdb
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.pdb
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll.config
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csprojAssemblyReference.cache
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CoreCompileInputs.cache
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CopyComplete
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.dll
+F:\proje dosyaları\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll.config
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe.config
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.rsp
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe.config
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.rsp
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.AppContext.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Console.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Claims.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe.config
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.rsp
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\WebGrease.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.pdb
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll.config
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csprojAssemblyReference.cache
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CopyComplete
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.dll
+C:\Users\Murtican\Desktop\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.pdb
+D:\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll.config
+D:\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.pdb
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe.config
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.rsp
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe.config
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.rsp
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.AppContext.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Console.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Compression.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.AccessControl.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Claims.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.ValueTuple.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe.config
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.rsp
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe
+D:\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\WebGrease.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll
+D:\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.pdb
+D:\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.pdb
+D:\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.pdb
+D:\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.pdb
+D:\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll.config
+D:\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csprojAssemblyReference.cache
+D:\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CoreCompileInputs.cache
+D:\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CopyComplete
+D:\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.dll
+D:\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll.config
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe.config
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.rsp
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe.config
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.rsp
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.AppContext.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Console.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Claims.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe.config
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.rsp
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\WebGrease.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.pdb
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll.config
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csprojAssemblyReference.cache
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CopyComplete
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.dll
+C:\Users\Section1\Desktop\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.pdb
+F:\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll.config
+F:\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.pdb
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe.config
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.rsp
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe.config
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.rsp
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.AppContext.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Collections.Immutable.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Console.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Compression.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.AccessControl.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Claims.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.ValueTuple.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe.config
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.rsp
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe
+F:\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe.config
+F:\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\Microsoft.Web.Infrastructure.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\WebGrease.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll
+F:\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.pdb
+F:\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.pdb
+F:\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.pdb
+F:\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.pdb
+F:\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll.config
+F:\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csprojAssemblyReference.cache
+F:\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CoreCompileInputs.cache
+F:\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CopyComplete
+F:\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.dll
+F:\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.pdb
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll.config
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.pdb
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe.config
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.rsp
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe.config
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.rsp
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.AppContext.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Console.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Compression.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.AccessControl.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Claims.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.ValueTuple.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe.config
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.rsp
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\WebGrease.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.pdb
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.pdb
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.pdb
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.pdb
+D:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll.config
+D:\eczane\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csprojAssemblyReference.cache
+D:\eczane\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CoreCompileInputs.cache
+D:\eczane\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CopyComplete
+D:\eczane\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.dll
+D:\eczane\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.pdb
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll.config
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.WebUI.pdb
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.exe.config
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csc.rsp
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.exe.config
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\csi.rsp
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.AppContext.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Collections.Immutable.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Console.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Compression.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.IO.Pipes.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.AccessControl.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Claims.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Security.Principal.Windows.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.ValueTuple.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.exe.config
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\vbc.rsp
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\roslyn\VBCSCompiler.exe.config
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Microsoft.Web.Infrastructure.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\WebGrease.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.BLL.pdb
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.BOL.pdb
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\EntityFramework.SqlServer.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Helpers.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Mvc.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Optimization.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.Razor.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Deployment.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Web.WebPages.Razor.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Newtonsoft.Json.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Antlr3.Runtime.pdb
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\System.Diagnostics.DiagnosticSource.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.pdb
+F:\eczane\Pharmacy\Pharmacy.WebUI\bin\Eczane.DAL.dll.config
+F:\eczane\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csprojAssemblyReference.cache
+F:\eczane\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CoreCompileInputs.cache
+F:\eczane\Pharmacy\Pharmacy.WebUI\obj\Debug\Pharmacy.WebUI.csproj.CopyComplete
+F:\eczane\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.dll
+F:\eczane\Pharmacy\Pharmacy.WebUI\obj\Debug\Eczane.WebUI.pdb

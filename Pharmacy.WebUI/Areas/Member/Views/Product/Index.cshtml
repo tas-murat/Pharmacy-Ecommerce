@@ -1,0 +1,267 @@
+﻿
+@using Pharmacy.BOL.Entities
+@model Pharmacy.WebUI.Areas.Member.ViewModels.SingleVM
+
+<div class="secondary_page_wrapper">
+    <div class="container">
+        <ul class="breadcrumbs">
+            <li><a href="/Member">Ana Sayfa</a></li>
+            <li>@Model.product.name</li>
+        </ul>
+        <div class="section_offset">
+            <div class="row">
+                <main class="col-md-9 col-sm-8">
+                    <div class="clearfix">
+                        <div class="single_product">
+                            <div class="image_preview_container">
+                                <img id="img_zoom" data-zoom-image="@Model.product.Pictures.OrderByDescending(o=>o.pIndex).FirstOrDefault().FPath" src="@Model.product.Pictures.OrderByDescending(o=>o.pIndex).FirstOrDefault().FPath" alt="@Model.product.name">
+
+                                <button class="button_grey_2 icon_btn middle_btn open_qv"><i class="icon-resize-full-6"></i></button>
+
+                            </div>
+                            <div class="product_preview">
+
+                                <div class="owl_carousel" id="thumbnails">
+                                    @foreach (Picture item in Model.product.Pictures)
+                                    {
+                                        <a href="#" data-image="@item.FPath" data-zoom-image="@item.FPath">
+
+                                            <img src="@item.FPath" data-large-image="@item.FPath" alt="">
+
+                                        </a>
+                                    }
+
+                                </div><!--/ .owl-carousel-->
+
+                            </div>
+                            <div class="v_centered">
+                                <span class="title"></span>
+                            </div>
+                        </div>
+                        <div class="single_product_description">
+
+                            <h3 class="offset_title"><a href="#">@Model.product.name</a></h3>
+                            <div class="page-nav">
+
+                            </div>
+                            <div class="description_section v_centered">
+                                <ul class="rating"></ul>
+                                <ul class="topbar"></ul>
+                            </div>
+                            <div class="description_section">
+                                <table class="product_info">
+                                    <tbody>
+                                        <tr>
+                                            <td>Yayınlanma Tarihi: </td>
+                                            <td><a href="#">@Model.product.expDate.ToShortDateString()</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Stok: </td>
+                                            <td>
+                                                @if (@Model.product.stock > 0)
+                                                {
+                                                    <span class="in_stock">
+                                                        @Model.product.stock
+                                                    </span>}
+                                                else
+                                                {
+                                                    <span class="out_stock">
+                                                        stokta yok
+                                                    </span>}
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>Barkod: </td>
+                                            <td>@Model.product.barkod</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <hr>
+                            <div class="description_section">
+                                <p>@Model.product.description</p>
+                            </div>
+                            <div class="description_section">
+                                <div class="table_wrap product_price_table">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td class="special_price">
+                                                    Fiyat:<div class="price">@Model.product.price TL</div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="description_section_2 v_centered">
+                                <span class="title">Adet:</span>
+                                <div class="qty min clearfix">
+                                    <button class="theme_button" data-direction="minus">&#45;</button>
+                                    <input type="text" name="" class="quantityVal" value="1">
+                                    <button class="theme_button" data-direction="plus">&#43;</button>
+                                </div>
+                            </div>
+                            <div class="buttons_row">
+
+                                <button onclick="functAddCart(@Model.product.ID,1)" class="button_blue middle_btn">Sepete Ekle</button>
+                                <button onclick="functAddFavorite(@Model.product.ID)" class="button_dark_grey def_icon_btn middle_btn add_to_wishlist tooltip_container"><span class="tooltip top ">Favorilere Ekle</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </main>
+                <aside class="col-md-3 col-sm-4">
+                    <section class="section_offset">
+                        <h3>Satıcı Bilgileri</h3>
+                        <div class="theme_box">
+                            <div class="seller_info clearfix">
+                                <a href="#" class="alignleft photo">
+                                    <img src="/content/start/images/seller_photo_1.jpg" alt="">
+                                </a>
+                                <div class="wrapper">
+                                    <a href="#"><b>@Model.product.Seller.name</b></a>
+                                    <p class="seller_category"></p>
+                                </div>
+                            </div>
+                            <ul class="seller_stats">
+                                <li>
+                                    <ul class="topbar">
+                                        <li>China (Mainland)</li>
+                                        <li><a href="#">Contact Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><span class="bold">99.8%</span> Positive Feedback</li>
+                                <li><span class="bold">7606</span> Transactions</li>
+                            </ul>
+                            <div class="v_centered">
+                                <a href="#" class="button_blue mini_btn">Contact Seller</a>
+                                <a href="#" class="small_link">Chat Now</a>
+                            </div>
+                        </div>
+                        <div class="bottom_box">
+                            <a href="#" class="button_grey middle_btn">Satıcının diğer ürünlerini gör</a>
+                        </div>
+                    </section>
+                </aside>
+            </div>
+        </div>
+        <div class="section_offset">
+            <div class="tabs products">
+                <ul class="tabs_nav clearfix">
+                    <li><a href="#tab-5">Beğendiğin Ürünler</a></li>
+                    <li><a href="#tab-6">En Çok Satılan Ürünler</a></li>
+                    <li><a href="#tab-7">Satıcının Diğer Ürünleri</a></li>
+                </ul>
+                <div class="tab_containers_wrap">
+                    <div id="tab-5" class="tab_container">
+                        <div class="owl_carousel carousel_in_tabs type_2">
+                            @foreach (Product hbp in Model.FavoriteProducts.Select(s => s.Product))
+                            {
+                            <div class="product_item">
+                                <div class="image_wrap">
+
+                                    <img src="@hbp.Pictures.OrderBy(o=>o.pIndex).FirstOrDefault().FPath" width="245px" height="245px" alt="@hbp.name">
+                                    <div class="actions_wrap">
+                                        <div class="centered_buttons">
+                                            <a href="@Url.Action("Index","Product",new {id=hbp.ID })" class="button_dark_grey middle_btn quick_view">Ürün Detayı</a>
+                                            <a onclick="functAddCart(@hbp.ID,1)" style="cursor:pointer" class="button_blue middle_btn add_to_cart">Sepete Ekle</a>
+                                        </div>
+                                        <a onclick="functAddFavorite(@hbp.ID)" style="cursor:pointer" class="button_dark_grey middle_btn def_icon_btn add_to_wishlist tooltip_container"><span class="tooltip right">Favorilerden Çıkar</span></a>
+                                    </div>
+                                </div>
+                                <div class="description">
+
+                                    <a href="#">@hbp.name</a>
+
+                                    <div class="clearfix product_info">
+
+                                        <p class="product_price alignleft"><b>@hbp.price TL</b></p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            }
+                        </div>
+                    </div>
+                    <div id="tab-6" class="tab_container">
+                        <div class="owl_carousel type_2 carousel_in_tabs">
+                            @foreach (Product hbp in Model.BestProducts)
+                            {
+                                <div class="product_item">
+                                    <div class="image_wrap">
+
+                                        <img src="@hbp.Pictures.OrderBy(o=>o.pIndex).FirstOrDefault().FPath" width="245px" height="245px" alt="@hbp.name">
+                                        <div class="actions_wrap">
+                                            <div class="centered_buttons">
+                                                <a href="@Url.Action("Index","Product",new {id=hbp.ID })" class="button_dark_grey middle_btn quick_view">Ürün Detayı</a>
+                                                <a onclick="functAddCart(@hbp.ID,1)" style="cursor:pointer" class="button_blue middle_btn add_to_cart">Sepete Ekle</a>
+                                            </div>
+                                            <a onclick="functAddFavorite(@hbp.ID)" style="cursor:pointer" class="button_dark_grey middle_btn def_icon_btn add_to_wishlist tooltip_container"><span class="tooltip right">Favorilerden Çıkar</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="label_hot">Hot</div>
+                                    <div class="description">
+
+                                        <a href="#">@hbp.name</a>
+
+                                        <div class="clearfix product_info">
+
+                                            <p class="product_price alignleft"><b>@hbp.price TL</b></p>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- - - - - - - - - - - - - - End of product title & price - - - - - - - - - - - - - - - - -->
+
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                    <div id="tab-7" class="tab_container">
+                        <div class="owl_carousel type_2 carousel_in_tabs">
+
+                            @foreach (Product hbp in Model.BestProducts)
+                            {
+                                <div class="product_item">
+                                    <div class="image_wrap">
+
+                                        <img src="@hbp.Pictures.OrderBy(o=>o.pIndex).FirstOrDefault().FPath" width="245px" height="245px" alt="@hbp.name">
+                                        <div class="actions_wrap">
+                                            <div class="centered_buttons">
+                                                <a href="@Url.Action("Index","Product",new {id=hbp.ID })" class="button_dark_grey middle_btn quick_view">Ürün Detayı</a>
+                                                <a onclick="functAddCart(@hbp.ID,1)" style="cursor:pointer" class="button_blue middle_btn add_to_cart">Sepete Ekle</a>
+                                            </div>
+                                            <a onclick="functAddFavorite(@hbp.ID)" style="cursor:pointer" class="button_dark_grey middle_btn def_icon_btn add_to_wishlist tooltip_container"><span class="tooltip right">Favorilerden Çıkar</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="label_hot">Hot</div>
+                                    <div class="description">
+
+                                        <a href="#">@hbp.name</a>
+
+                                        <div class="clearfix product_info">
+
+                                            <p class="product_price alignleft"><b>@hbp.price TL</b></p>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- - - - - - - - - - - - - - End of product title & price - - - - - - - - - - - - - - - - -->
+
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><

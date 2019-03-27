@@ -1,0 +1,56 @@
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.pdb
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csprojAssemblyReference.cache
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.pdb
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.dll.config
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.BOL.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.BOL.pdb
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Murtican\Desktop\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csproj.CopyComplete
+F:\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.dll.config
+F:\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.dll
+F:\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.pdb
+F:\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.BOL.dll
+F:\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.dll
+F:\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.BOL.pdb
+F:\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.xml
+F:\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csprojAssemblyReference.cache
+F:\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csproj.CoreCompileInputs.cache
+F:\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csproj.CopyComplete
+F:\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.dll
+F:\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.dll.config
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.dll
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.BOL.dll
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.dll
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.BOL.pdb
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.xml
+D:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csprojAssemblyReference.cache
+D:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csproj.CoreCompileInputs.cache
+D:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csproj.CopyComplete
+D:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.dll
+D:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.pdb
+F:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.dll.config
+F:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.dll
+F:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.DAL.pdb
+F:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.BOL.dll
+F:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.dll
+F:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\Eczane.BOL.pdb
+F:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.xml
+F:\vs projeler\My proje\Eczane\Eczane.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csprojAssemblyReference.cache
+F:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csproj.CoreCompileInputs.cache
+F:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.csproj.CopyComplete
+F:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.dll
+F:\vs projeler\My proje\Eczane\Eczane.DAL\obj\Debug\Eczane.DAL.pdb
