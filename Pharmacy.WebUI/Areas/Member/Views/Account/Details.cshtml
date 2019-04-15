@@ -1,98 +1,88 @@
-﻿@model Pharmacy.BOL.Entities.Product
-
+﻿@using Pharmacy.BOL.Entities
+@using Pharmacy.WebUI.Areas.Member.ViewModels
+@model ProductDetailVM
 @{
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
 
-<div>
-    <h4>Product</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Brand.name)
-        </dt>
+<div class="secondary_page_wrapper">
 
-        <dd>
-            @Html.DisplayFor(model => model.Brand.name)
-        </dd>
+    <div class="container">
+        <ul class="breadcrumbs">
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Seller.username)
-        </dt>
+            <li><a href="/Member">Ana Sayfa</a></li>
+            <li>Profilim</li>
 
-        <dd>
-            @Html.DisplayFor(model => model.Seller.username)
-        </dd>
+        </ul>
+        <div class="row">
+            @{ Html.RenderAction("Sidebar", "Profil");}
+            <main class="col-md-9 col-sm-8">
 
-        <dt>
-            @Html.DisplayNameFor(model => model.name)
-        </dt>
+                <h1>Profilim</h1>
 
-        <dd>
-            @Html.DisplayFor(model => model.name)
-        </dd>
+                <div class="top_box on_the_sides">
+                    <section class="section_offset">
+                        <h3> Genel Bilgiler</h3>
+                        <div class="row genel">
+                            <div class="col-sm-6">
+                                <div class="table_wrap">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th>@Html.DisplayNameFor(model => model.product.name)</th>
+                                                <td>@Html.DisplayFor(model => model.product.name)</td>
+                                            </tr>
+                                            <tr>
+                                                <th>@Html.DisplayNameFor(model => model.product.price)</th>
+                                                <td>@Html.DisplayFor(model => model.product.price)</td>
+                                            </tr>
+                                            <tr>
+                                                <th>@Html.DisplayNameFor(model => model.product.stock)</th>
+                                                <td>@Html.DisplayFor(model => model.product.stock)</td>
+                                            </tr>
+                                            <tr>
+                                                <th>@Html.DisplayNameFor(model => model.product.Brand.name)</th>
+                                                <td>@Html.DisplayFor(model => model.product.Brand.name)</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Kategoriler</th>
+                                                <td>@string.Join(" - ", Model.Categories.Select(s => s.name))</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Etiketler</th>
+                                                <td>@string.Join(" - ", Model.Tags.Select(s => s.name))</td>
+                                            </tr>
+                                            <tr>
+                                                <th>@Html.DisplayNameFor(model => model.product.description)</th>
+                                                <td>@Html.DisplayFor(model => model.product.description)</td>
+                                            </tr>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.description)
-        </dt>
+                                        </tbody>
 
-        <dd>
-            @Html.DisplayFor(model => model.description)
-        </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.price)
-        </dt>
+                                    </table>
 
-        <dd>
-            @Html.DisplayFor(model => model.price)
-        </dd>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div> <h3 style="padding-bottom:10px">Resimleri</h3> <a href="@Url.Action("Edit","Account",new { id=Model.product.ID})" class="button_grey">Bilgilerini Düzenle</a></div>
+                                @foreach (Picture hbp in Model.product.Pictures.OrderByDescending(o=>o.pIndex))
+                                {
+                                    <div class="editimg"><img src="@hbp.FPath" alt="@Model.product.name"  width="100px"/></div>
+                                }
 
-        <dt>
-            @Html.DisplayNameFor(model => model.stock)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.stock)
-        </dd>
+                            </div>
+                        </div>
+                    </section>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.IsDiscount)
-        </dt>
+                </div><!--/ .top_box -->
 
-        <dd>
-            @Html.DisplayFor(model => model.IsDiscount)
-        </dd>
+            </main><!--/ [col]-->
 
-        <dt>
-            @Html.DisplayNameFor(model => model.expDate)
-        </dt>
+        </div><!--/ .row-->
 
-        <dd>
-            @Html.DisplayFor(model => model.expDate)
-        </dd>
+    </div><!--/ .container-->
 
-        <dt>
-            @Html.DisplayNameFor(model => model.releaseDate)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.releaseDate)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.barkod)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.barkod)
-        </dd>
-
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+</div><!--/ .page_wrapper-->

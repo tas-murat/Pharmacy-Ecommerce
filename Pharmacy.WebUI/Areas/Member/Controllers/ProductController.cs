@@ -11,7 +11,7 @@ using System.Web.Mvc;
 
 namespace Pharmacy.WebUI.Areas.Member.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "member")]
     public class ProductController : Controller
     {
         SqlRepository<Product> repoProduct = new SqlRepository<Product>();
@@ -19,18 +19,19 @@ namespace Pharmacy.WebUI.Areas.Member.Controllers
         SqlRepository<Seller> repoSeller = new SqlRepository<Seller>();
         public ActionResult Index(int? id)
         {
+            ViewBag.Title = "Sora-Eczane| Ürün Detay";
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Product product = repoProduct.GetAll().Include(i => i.Pictures).Include(i => i.Seller).Where(g => g.ID == id).FirstOrDefault();
-            string memberUserName = HttpContext.User.Identity.Name;
-            Seller seller = repoSeller.GetBy(g => g.username == memberUserName);
+            int sellerID = MemberFind.SellerID();
+
             SingleVM singleVM = new SingleVM
             {
                 product = product,
                 BestProducts = repoProduct.GetAll().Include(i => i.Pictures).ToList(),
-                FavoriteProducts= repoFavorite.GetAll().Include(i=>i.Product).Include(i => i.Product.Pictures).Where(w=>w.SellerID== seller.ID).ToList()
+                FavoriteProducts= repoFavorite.GetAll().Include(i=>i.Product).Include(i => i.Product.Pictures).Where(w=>w.SellerID== sellerID).ToList()
             };
             if (product == null)
             {

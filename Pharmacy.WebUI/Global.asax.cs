@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Pharmacy.BLL.Repositories;
+using Pharmacy.BOL.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Principal;
@@ -21,13 +23,15 @@ namespace Pharmacy.WebUI
         }
         protected void Application_AuthenticateRequest(Object sender, EventArgs e)
         {
+            SqlRepository<Seller> repoSeller = new SqlRepository<Seller>();
             if (HttpContext.Current.User != null)
             {
                 if (HttpContext.Current.User.Identity.IsAuthenticated)
                 {
-                    //string rol = db.Admin.FirstOrDefault(w => w.KullaniciAdi == HttpContext.Current.User.Identity.Name).Rol;
-                    //string[] roles = rol.Split(',');
-                    //HttpContext.Current.User = new GenericPrincipal((FormsIdentity)HttpContext.Current.User.Identity, roles);
+                    string memberUserName = HttpContext.Current.User.Identity.Name;
+                    string rol = repoSeller.GetAll().FirstOrDefault(g => g.GLNNumber == memberUserName).Rol;
+                    string[] roles = rol.Split(',');
+                    HttpContext.Current.User = new GenericPrincipal((FormsIdentity)HttpContext.Current.User.Identity, roles);
                 }
             }
         }

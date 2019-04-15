@@ -11,6 +11,7 @@ using Pharmacy.BOL.Entities;
 
 namespace Pharmacy.WebUI.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class FAQController : Controller
     {
         SqlRepository<FAQ> repoFAQ = new SqlRepository<FAQ>();

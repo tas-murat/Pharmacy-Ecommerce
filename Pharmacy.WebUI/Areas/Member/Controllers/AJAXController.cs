@@ -11,12 +11,14 @@ using System.Web.Mvc;
 
 namespace Pharmacy.WebUI.Areas.Member.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "member")]
     public class AJAXController : Controller
     {
         SqlRepository<Product> repoProduct = new SqlRepository<Product>();
         SqlRepository<Favorite> repoFavorite = new SqlRepository<Favorite>();
         SqlRepository<Seller> repoSeller = new SqlRepository<Seller>();
+        SqlRepository<District> repoDistrict = new SqlRepository<District>();
+        SqlRepository<Address> repoAddress = new SqlRepository<Address>();
         public ActionResult CardDetail()
         {
             List<Cart> carts = new List<Cart>();
@@ -43,10 +45,9 @@ namespace Pharmacy.WebUI.Areas.Member.Controllers
         [HttpPost]
         public int addFavorite(int productID)
         {
-            string memberUserName = HttpContext.User.Identity.Name;
-            Seller seller = repoSeller.GetBy(g => g.username == memberUserName);
+            int sellerID = MemberFind.SellerID();
 
-            Favorite favorite = repoFavorite.GetBy(g => g.SellerID == seller.ID && g.ProductID == productID);
+            Favorite favorite = repoFavorite.GetBy(g => g.SellerID == sellerID && g.ProductID == productID);
             if (favorite != null)
             {
                 repoFavorite.Remove(favorite);
@@ -54,9 +55,29 @@ namespace Pharmacy.WebUI.Areas.Member.Controllers
             }
             else
             {
-                repoFavorite.Add(new Favorite { SellerID = seller.ID,ProductID=productID });
+                repoFavorite.Add(new Favorite { SellerID = sellerID, ProductID = productID });
                 return 1;
             }
         }
+        public ActionResult getDistrict(string plaka)
+        {
+            return Json(repoDistrict.GetAll().Where(w => w.CityPlaka == plaka).Select(s => new { s.ID, s.name }), JsonRequestBehavior.AllowGet);
+        } public ActionResult getAddress(int ID)
+        {
+            int sellerID = MemberFind.SellerID();
+            List<Address> addresses = repoAddress.GetAll().Include(i => i.Seller).Include(i => i.District).Include(i => i.District.City).Where(w => w.SellerID == sellerID).ToList();
+            getMyAdress myAdress =new getMyAdress {
+                name=addresses.FirstOrDefault(f=>f.ID==ID).address,
+                city = addresses.FirstOrDefault(f=>f.ID==ID).District.City.name,
+                district = addresses.FirstOrDefault(f=>f.ID==ID).District.name
+            };
+            
+            return Json(myAdress, JsonRequestBehavior.AllowGet);
+        }
+    }
+    public class getMyAdress{
+        public string name { get; set; }
+        public string city { get; set; }
+        public string district { get; set; }
     }
 }

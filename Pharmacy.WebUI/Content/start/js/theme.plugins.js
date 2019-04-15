@@ -300,7 +300,7 @@
 
 					range.children('.min_value').val(min).next().val(max);
 
-                    range.children('.min_val').text(min + '₺').next().text(max + '₺');
+                    range.children('.min_val').text(min + 'TL').next().text(max + 'TL');
 
 				},
 
@@ -313,7 +313,7 @@
 
 					range.children('.min_value').val(min).next().val(max);
 
-                    range.children('.min_val').text(min + '₺').next().text(max + '₺');
+                    range.children('.min_val').text(min + ' TL').next().text(max + ' TL');
 					
 				}
 

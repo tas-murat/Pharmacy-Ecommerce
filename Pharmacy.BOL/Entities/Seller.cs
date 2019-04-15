@@ -12,8 +12,8 @@ namespace Pharmacy.BOL.Entities
     public class Seller
     {
         public int ID { get; set; }
-        [StringLength(30), Column(TypeName = "Varchar"), Display(Name = "Kullanıcı Adı"), Required(ErrorMessage = "Kullanıcı Adı boş geçilemez.")]
-        public string username { get; set; }
+        [StringLength(13, ErrorMessage = "GLN Numarası 13 karekterden fazla olamaz"), Column(TypeName = "Varchar"), Display(Name = "GLN Numarası"), Required(ErrorMessage = "Gln Numarası boş geçilemez.")]
+        public string GLNNumber { get; set; }
         [StringLength(50), Column(TypeName = "Varchar"), Display(Name = "Yetkili Adı"), Required(ErrorMessage = "Ad boş geçilemez.")]
         public string name { get; set; }
         [StringLength(50), Column(TypeName = "Varchar"), Display(Name = "Yetkili Soyadı"), Required(ErrorMessage = "Soyad boş geçilemez.")]

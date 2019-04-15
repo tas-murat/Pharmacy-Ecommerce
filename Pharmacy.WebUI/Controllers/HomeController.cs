@@ -40,15 +40,15 @@ namespace Pharmacy.WebUI.Controllers
                 {
 
                     if (!Directory.Exists(Server.MapPath("~/Content/images/contact"))) Directory.CreateDirectory(Server.MapPath("~/Content/images/contact"));
-                    string yol = Path.Combine(Server.MapPath("~/Content/images/contact"), Path.GetFileName(Tools.DosyaYoluOlustur(file.FileName, contacte.ID.ToString())));
+                    string yol = Path.Combine(Server.MapPath("~/Content/images/contact"), Path.GetFileName(FilePath.getfilePath(file.FileName, contacte.ID.ToString())));
                     file.SaveAs(yol);
-                    contacte.file = "/Content/images/contact" + Path.GetFileName(Tools.DosyaYoluOlustur(file.FileName, contacte.ID.ToString()));
+                    contacte.file = "/Content/images/contact" + Path.GetFileName(FilePath.getfilePath(file.FileName, contacte.ID.ToString()));
                 }
                 repoContacte.Add(contacte);
                 SendMessage ms = new SendMessage();
-               bool kontrol= ms.MailGonder(contacte.name, contacte.email, contacte.subject, contacte.message);
-                if (kontrol) TempData["sonuc"] = "Mesajınız başarıyla gönderildi";
-                else TempData["sonuc"] = "Mesajınız gönderilemedi";
+               bool kontrol= ms.sendEmail(contacte.name, contacte.email, contacte.subject, contacte.message);
+                if (kontrol) TempData["MessageStatus"] = "Mesajınız başarıyla gönderildi";
+                else TempData["MessageStatus"] = "Mesajınız gönderilemedi";
                 return RedirectToAction("Index");
             }
            
@@ -64,12 +64,17 @@ namespace Pharmacy.WebUI.Controllers
         public ActionResult Login(string username, string password,string rUrl,string cbremember)
         {
             bool benihatirla = false;
-            Seller seller = repoSeller.GetBy(w=>(w.username==username||w.email==username) && w.password== password);
+            Seller seller = repoSeller.GetBy(w=>(w.GLNNumber==username||w.email==username) && w.password== password);
             if (seller != null)
             {
                 if (cbremember != null) benihatirla = true;
-                FormsAuthentication.SetAuthCookie(username, benihatirla);
-                Session["AdSoyad"] = seller.name+" "+ seller.surname;
+                FormsAuthentication.SetAuthCookie(seller.GLNNumber, benihatirla);
+                Session["AdSoyad"] = seller.name + " " + seller.surname;
+                if (seller.Rol == "admin")
+                {
+                    return Redirect("/Admin");
+                }
+              
                 if (!string.IsNullOrEmpty(rUrl))
                     return Redirect(rUrl);
                 else
@@ -88,17 +93,17 @@ namespace Pharmacy.WebUI.Controllers
             return View();
         }
         [HttpPost, ValidateAntiForgeryToken]
-        public ActionResult Register([Bind(Include = "ID,username,name,surname,pharmacyName,email,phone,password,password2")]Seller seller)
+        public ActionResult Register(Seller seller)
         {
-            if (!string.IsNullOrEmpty(seller.username) && !string.IsNullOrEmpty(seller.password))
+            if (!string.IsNullOrEmpty(seller.GLNNumber) && !string.IsNullOrEmpty(seller.password))
             {
-                if (!repoSeller.GetAll().Any(a => a.username == seller.username))
+                if (!repoSeller.GetAll().Any(a => a.GLNNumber == seller.GLNNumber))
                 {
                     seller.Rol = "member";
                     seller.lastEntryDate = DateTime.Now;
                     seller.lastEntryIP = Request.UserHostAddress;
                     repoSeller.Add(seller);
-                    FormsAuthentication.SetAuthCookie(seller.username, false);
+                    FormsAuthentication.SetAuthCookie(seller.GLNNumber, false);
                     Session["AdSoyad"] = seller.name + " " + seller.surname;
                     return Redirect("/Member");
                 }

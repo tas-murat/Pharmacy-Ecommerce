@@ -16,24 +16,7 @@
 		** initialize after DOM has been loaded
 		**/
 		afterDOMReady : function(){
-
-			$("body").queryLoader2({
-    			barHeight : 4,
-    			backgroundColor : '#fff',
-    			barColor : '#018bc8',
-    			minimumTime : 2000,
-    			onComplete : function(){
-
-					// show promo popup
-    				if($.arcticmodal && $('body').hasClass('promo_popup')){
-						$.arcticmodal({
-							url : "modals/promo.html"
-						});
-					}
-
-    			}
-    		});
-
+            
 			this.fancyboxValidationFix();
 			this.generateBackToTopButton();
 			this.attachButton();
@@ -325,28 +308,28 @@
 		/**
 		**	Generate stylized button instead default browser's button with type="file"
 		**/
-		//attachButton: function(){
+		attachButton: function(){
 
-		//	$('input[type="file"]').each(function(){
+			//$('input[type="file"]').each(function(){
 
-		//		var wrap = $('<div></div>'),
-		//			btn = $('<button></button>', {
-		//				class: 'button_dark_grey middle_btn attach_file_btn',
-		//				type: 'button',
-		//				text: 'Browse'
-		//			});
+			//	var wrap = $('<div></div>'),
+			//		btn = $('<button></button>', {
+			//			class: 'button_dark_grey middle_btn attach_file_btn',
+			//			type: 'button',
+			//			text: 'Browse'
+			//		});
 
-		//		wrap.append(btn);
+			//	wrap.append(btn);
 
-		//		$(this).before(wrap).hide();
+			//	$(this).before(wrap).hide();
 
-		//	});
+			//});
 
-		//	$('.attach_file_btn').on('click', function(){
-		//		$(this).parent().next().trigger('click');
-		//	});
+			//$('.attach_file_btn').on('click', function(){
+			//	$(this).parent().next().trigger('click');
+			//});
 
-		//},
+		},
 
 		/**
 		**	Generate rel attribute from valid data-rel attribute
@@ -548,7 +531,9 @@
 							len = parent.find('.animated_item').length;
 							parent.data("len", len);
 
-							Core.mainAnimation.defineNewState(parent,true);
+                            Core.mainAnimation.defineNewState(parent, true);
+                           
+                               
 
 						});
 
@@ -632,7 +617,18 @@
 
 					if(c == 1 && d == "minus") return;
 
-					input.val(d == "minus" ? --c : ++c);
+                    input.val(d == "minus" ? --c : ++c);
+                    var productID = $this.parent().siblings('.proID').val();
+                    if (productID != 0) {
+                    $.ajax({
+                        type: "POST",
+                        url: "/Member/Home/UpdateCart",
+                        data: { "productID": productID, "quantity": parseInt(input.val())},
+                        success: function () { location.href = '/Member/Cart'; },
+                        error: function (e) { alert(e.responseText) },
+                    });}
+                   
+
 
 				}).on('keydown.qty','.qty input', function(event){
 
@@ -941,13 +937,14 @@
 					$this.addClass('active').siblings().removeClass('active');
 
                     container.removeClass('grid_view list_view list_view_products').addClass($this.data('table-layout'));
-                    if (parseInt($(".listKontrol").val()) == 0) {
-                        container.children(".table_row").children(".table_cell").removeClass("col-sm-6").removeClass("col-md-4");
-                        $(".listKontrol").val("1");
-                    } else {
-                        container.children(".table_row").children(".table_cell").addClass("col-sm-6").addClass("col-md-4");
-                        $(".listKontrol").val("0");
-                    }
+                    container.children(".table_row").children(".table_cell").removeClass('col-sm-6 col-md-4').addClass($this.data('table-new'));
+                    //if (parseInt($(".listKontrol").val()) == 0) {
+                    //    container.children(".table_row").children(".table_cell").removeClass("col-sm-6").removeClass("col-md-4");
+                    //    $(".listKontrol").val("1");
+                    //} else {
+                    //    container.children(".table_row").children(".table_cell").addClass("col-sm-6").addClass("col-md-4");
+                    //    $(".listKontrol").val("0");
+                    //}
 
 				});
 
@@ -980,7 +977,7 @@
 
 					range.children('.min_value').val(min).next().val(max);
 
-                    range.children('.min_val').text(min + '₺').next().text(max + '₺');
+                    range.children('.min_val').text(min + 'Tl').next().text(max + 'Tl');
 
 				});
 

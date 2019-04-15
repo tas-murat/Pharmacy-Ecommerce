@@ -12,5 +12,6 @@ namespace Pharmacy.WebUI.Areas.Member.ViewModels
         public ICollection<Category> Categories { get; set; }
         public ICollection<Tag> Tags { get; set; }
         public ICollection<Brand> Brands { get; set; }
+        public ICollection<ProductCategory> ProductCategories { get; set; }
     }
 }

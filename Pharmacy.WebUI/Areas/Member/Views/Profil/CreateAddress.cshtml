@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Pharmacy.BOL.Entities.City>
+
+@{
+    ViewBag.Title = "CreateAddress";
+}
+
+<div class="secondary_page_wrapper">
+
+    <div class="container">
+
+        <ul class="breadcrumbs">
+
+            <li><a href="/Member">Ana Sayfa</a></li>
+            <li><a href="/Member/Account">Ürünler</a></li>
+            <li>Yeni Ürün</li>
+
+        </ul>
+        <div class="row">
+            @{ Html.RenderAction("Sidebar", "Profil");}
+            <main class="col-md-9 col-sm-8">
+
+                <section class="section_offset">
+
+                    <h3>Yeni Ürün</h3>
+
+                    <div class="theme_box">
+
+                        <div class="row">
+
+                            <div class="col-sm-12">
+                                <form action="/Member/Profil/CreateAddress" method="post">
+                                    @Html.AntiForgeryToken()
+                                    <ul>
+                                        <li class="row">
+                                            <div class="col-xs-12">
+                                                <label for="input_1">Adres Adı</label>
+                                                <div class="form_el">
+                                                    <input type="text" name="name">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row">
+                                            <div class="col-xs-12  col-md-6" style="padding-bottom:5px">
+                                                <label for="select_1"> </label>
+                                                <div class="form_el">
+                                                    @Html.DropDownList("City", new SelectList(Model, "Plaka", "name"), "İl Seçiniz...",new { @onchange = "ajaxCityDistrict(this)" }) </div>
+                                            </div>
+                                            <div class="col-xs-12  col-md-6">
+                                                <label for="select_1"></label>
+                                                <div class="form_el">
+                                                    <select class="District" name="DistrictID">
+                                                        <option>İlçe Seçiniz</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row">
+                                            <div class="col-xs-12">
+                                                <label for="textarea_1">Adress</label>
+                                                <div class="form_el">
+                                                    <textarea rows="2" placeholder="Mah. sokak apt daire..." name="Address" id="textarea_1"></textarea>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row" style="margin-top:10px">
+                                            <div class="col-xs-12">
+                                                <input type="submit" class="button_blue middle_btn" value="Kaydet" />
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</div>

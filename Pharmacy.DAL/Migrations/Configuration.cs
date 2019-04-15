@@ -10,6 +10,7 @@ namespace Eczane.DAL.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(Pharmacy.DAL.Contexts.SqlContext context)

@@ -1,5 +1,6 @@
 ﻿using Pharmacy.BLL.Repositories;
 using Pharmacy.BOL.Entities;
+using Pharmacy.WebUI.Areas.Member.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -9,7 +10,7 @@ using System.Web.Mvc;
 
 namespace Pharmacy.WebUI.Areas.Member.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "member")]
     public class WishlistController : Controller
     {
         SqlRepository<Favorite> repoFavorite = new SqlRepository<Favorite>();
@@ -17,10 +18,12 @@ namespace Pharmacy.WebUI.Areas.Member.Controllers
         SqlRepository<Product> repoProduct = new SqlRepository<Product>();
         public ActionResult Index()
         {
-            string sellerUserName = HttpContext.User.Identity.Name;
-            Seller seller = repoSeller.GetBy(g => g.username == sellerUserName);
+            ViewBag.ActiveIndex = 2;
+            ViewBag.ActiveSidebar = 6;
+            ViewBag.Title = "Sora-Eczane| Favorilerim";
+            int sellerID = MemberFind.SellerID();
 
-            return View(repoFavorite.GetAll().Include(i => i.Product).Include(i => i.Product.Pictures).Include(i => i.Product.Seller).Where(w => w.SellerID == seller.ID));
+            return View(repoFavorite.GetAll().Include(i => i.Product).Include(i => i.Product.Pictures).Include(i => i.Product.Seller).Where(w => w.SellerID == sellerID));
         }
     }
 }

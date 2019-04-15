@@ -4,3 +4,19 @@
 .favcss:hover {
     color: #ff0000;
 }
+.addCursor{
+    cursor:pointer;
+}
+.genel{
+    margin-top:20px;
+}
+.multiselect-container > li > a > label {
+    padding: 4px 20px 3px 20px;
+}
+.editimg {
+    padding:10px;
+    float:left;
+    border-bottom:solid 1px #e5e5e5;
+    width:150px;
+    height:150px
+}

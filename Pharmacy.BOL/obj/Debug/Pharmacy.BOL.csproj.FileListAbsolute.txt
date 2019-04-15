@@ -28,3 +28,15 @@ D:\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.dll
 D:\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.pdb
 D:\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.dll
 D:\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.pdb
+D:\eczane\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.dll
+D:\eczane\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.pdb
+D:\eczane\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csprojAssemblyReference.cache
+D:\eczane\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csproj.CoreCompileInputs.cache
+D:\eczane\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.dll
+D:\eczane\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.pdb
+F:\projeler\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.dll
+F:\projeler\Pharmacy\Pharmacy.BOL\bin\Debug\Eczane.BOL.pdb
+F:\projeler\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csprojAssemblyReference.cache
+F:\projeler\Pharmacy\Pharmacy.BOL\obj\Debug\Pharmacy.BOL.csproj.CoreCompileInputs.cache
+F:\projeler\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.dll
+F:\projeler\Pharmacy\Pharmacy.BOL\obj\Debug\Eczane.BOL.pdb

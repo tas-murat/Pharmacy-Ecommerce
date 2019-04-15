@@ -1,0 +1,218 @@
+﻿@using Pharmacy.BOL.Entities
+@using Pharmacy.WebUI.Areas.Member.ViewModels
+@model Pharmacy.WebUI.Areas.Member.ViewModels.CategoryVM
+@{
+    int memberID =MemberFind.SellerID();
+    string favClass = "";
+    string textFav = "Favorilere Ekle";
+}
+
+
+<div class="secondary_page_wrapper">
+
+    <div class="container">
+        <ul class="breadcrumbs"></ul>
+        <div class="row">
+            @{ Html.RenderAction("FiltreBar", "Home");}
+            <main class="col-md-9 col-sm-8">
+                <section class="section_offset">
+                    <h1>Ürünler</h1>
+                    <p></p>
+                </section>
+
+                <footer class="bottom_box on_the_sides">
+
+                    <div class="left_side">
+
+                        <p>Showing 1 to 3 of 45 (15 Pages)</p>
+
+                    </div>
+
+                    <div class="right_side">
+
+                        <ul class="pags">
+
+                            <li><a href="#"></a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#"></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </footer>
+                <div class="section_offset anadiv">
+
+                    <div class="top_box on_the_sides">
+
+                        <div class="left_side clearfix v_centered">
+                            <div class="v_centered">
+                                <span>Sırala:</span>
+
+                                <div class="custom_select sort_select">
+                                    <select name="">
+                                        <option value="Default">Ad</option>
+                                        <option value="Price">En düşük Fiyat</option>
+                                        <option value="Name">En Yüksek Fiyat</option>
+                                        <option value="Date">Tarih</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="v_centered">
+                                <span>Göster:</span>
+                                <div class="custom_select">
+                                    <select name="">
+                                        <option value="15">15</option>
+                                        <option value="12">12</option>
+                                        <option value="9">9</option>
+                                        <option value="6">6</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="right_side">
+                            <div class="layout_type buttons_row" data-table-container="#products_container">
+                                <a data-table-layout="grid_view" data-table-new="col-sm-6 col-md-4" class="button_grey middle_btn icon_btn active tooltip_container"><i class="icon-th"></i><span class="tooltip top">Izgara Görünüm</span></a>
+                                <a data-table-layout="list_view list_view_products" data-table-new="" class="button_grey middle_btn icon_btn tooltip_container"><i class="icon-th-list"></i><span class="tooltip top">Listele Görünümü</span></a>
+                                <input type="hidden" value="0" class="listKontrol" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table_layout" id="products_container">
+                        <div class="table_row">
+
+                            @foreach (Product product in Model.products)
+                            {
+                                <div class="table_cell col-sm-6 col-md-4" id="mycolAdd">
+                                    <div class="product_item">
+                                        <div class="image_wrap">
+                                            <img src="@product.Pictures.FirstOrDefault().FPath" alt="@product.name" style="height:246px">
+                                            <div class="actions_wrap">
+                                                <div class="centered_buttons">
+                                                    <a href="@Url.Action("Index","Product",new {id=product.ID })" class="button_dark_grey middle_btn quick_view">Ürün Detayı</a>
+
+                                                    <a onclick="functAddCart(@product.ID,1)" class="button_blue middle_btn add_to_cart" style="cursor:pointer">Sepete Ekle</a>
+                                                </div>
+                                                <input type="hidden" value="@product.ID" class="productID" />
+                                                @{Favorite favorite = product.Favorites.Where(w => w.SellerID == memberID).FirstOrDefault();
+                                                    if (favorite != null)
+                                                    {
+                                                        favClass = "favcss";
+                                                        textFav = "Favorilerden Çıkar";
+                                                    }
+                                                    else
+                                                    {
+                                                        favClass = "";
+                                                        textFav = "Favorilere Ekle";
+                                                    }
+                                                    <a onclick="functAddFavorite(this,@product.ID)" style="cursor:pointer" class="button_dark_grey def_icon_btn middle_btn add_to_wishlist tooltip_container @favClass"><span class="tooltip right favtext">@textFav</span></a>
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="description">
+                                            <a>@product.name</a>
+                                            <div class="clearfix product_info">
+                                                <p class="product_price alignleft"><b>@product.price TL</b></p>
+                                                <ul class="rating alignright">
+                                                    <li class="active"></li>
+                                                    <li class="active"></li>
+                                                    <li class="active"></li>
+                                                    <li class="active"></li>
+                                                    <li></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="full_description">
+                                            <a class="product_title">@product.name</a>
+                                            <a href="#" class="product_category">Barkod : @product.barkod</a>
+                                            <div class="v_centered product_reviews">
+                                                <ul class="topbar"></ul>
+                                            </div>
+                                            @if (@product.description.Length > 100)
+                                            {
+                                                <p>
+                                                    @product.description.Substring(0, 99)
+                                                </p>
+                                                <a href="#" class="learn_more">Devamı</a>
+                                            }
+                                            else
+                                            {<p>
+                                                    @product.description
+                                                </p>}
+
+                                        </div>
+                                        <div class="actions">
+                                            <p class="product_price bold">@product.price TL</p>
+                                            <ul class="seller_stats">
+                                                <li>Shipping: <span class="success">Free Shipping</span></li>
+                                                <li>
+                                                    Stok: @if (product.stock > 0)
+                                                    {
+                                                        <span class="success">@product.stock</span>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span class="danger">Tükendi</span>
+                                                    }
+                                                </li>
+                                                <li class="seller_info_wrap">
+                                                    Satıcı: <span class="aaa">@product.Seller.name</span>
+                                                    @*<div class="seller_info_dropdown">
+                                                    <ul class="seller_stats">
+                                                        <li>
+                                                            <ul class="topbar">
+                                                                <li>@product.Member.</li>
+                                                                <li><a href="#">Contact Details</a></li>
+
+                                                            </ul>
+
+                                                        </li>
+
+                                                        <li><span class="bold">99.8%</span> Positive Feedback</li>
+
+                                                    </ul>
+
+                                                    <div class="v_centered">
+
+                                                        <a href="#" class="button_blue mini_btn">Contact Seller</a>
+
+                                                        <a href="#" class="small_link">Chat Now</a>
+
+                                                    </div>
+
+                                                </div>*@
+
+                                                </li>
+
+                                            </ul>
+
+                                            <ul class="buttons_col">
+
+                                                <li><a onclick="functAddCart(@product.ID,1)" class="button_blue middle_btn add_to_cart" style="cursor:pointer">Sepete Ekle</a></li>
+                                                <li>
+                                                    <input type="hidden" value="@product.ID" class="productID" />
+                                                    <a onclick="functAddFavorite(this,@product.ID)" class="button_blue big_btn icon_btn @favClass"><i class="icon-heart-3"></i></a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <!-- - - - - - - - - - - - - - End of products - - - - - - - - - - - - - - - - -->
+            </main>
+
+        </div><!--/ .row -->
+
+    </div><!--/ .container-->
+</div><!--/ .page_wrapper-->
+<!-- - - - - - - - - - - - - - End Page Wrapper - - - - - - - - - - - - - - - - -->

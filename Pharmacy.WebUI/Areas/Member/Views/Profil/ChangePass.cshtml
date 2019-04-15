@@ -1,0 +1,63 @@
+﻿@model Pharmacy.BOL.Entities.Seller
+
+@{
+    ViewBag.Title = "ChangePass";
+}
+
+<div class="secondary_page_wrapper">
+
+    <div class="container">
+
+        <ul class="breadcrumbs">
+
+            <li><a href="/Member">Ana Sayfa</a></li>
+            <li><a href="/Member/Profil">Profil</a></li>
+            <li>Profili düzenle</li>
+
+        </ul>
+        <div class="row">
+            @{ Html.RenderAction("Sidebar", "Profil");}
+            <main class="col-md-9 col-sm-8">
+                @using (Html.BeginForm("ChangePass", "Profil", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    <h4>Şifreyi Yenile</h4>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.HiddenFor(model => model.ID)
+
+                    <div class="form-group">
+                        <label class="control-label col-md-3">Eski Şifre</label>
+                        <div class="col-md-9">
+                            <input type="password" name="oldPass" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">Yeni Şifre</label>
+                        <div class="col-md-9">
+                            <input type="password" name="newPass" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">Tekrar Şifre</label>
+                        <div class="col-md-9">
+                            <input type="password" name="newPass2" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group" style="padding-top:10px">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Değiştir" class="button_dark_grey" />
+                        </div>
+                    </div>
+                </div>
+                }
+
+            </main>
+        </div>
+    </div>
+</div>
+
+
+

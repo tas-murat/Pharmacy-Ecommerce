@@ -1,0 +1,80 @@
+﻿@using Pharmacy.BOL.Entities;
+@model IEnumerable<OrderDetail>
+
+<div class="secondary_page_wrapper">
+    <div class="container">
+        <ul class="breadcrumbs">
+
+            <li><a href="index.html">Home</a></li>
+            <li>My Orders</li>
+
+        </ul>
+        <div class="row">
+
+            @{ Html.RenderAction("Sidebar", "Profil");}
+
+            <main class="col-md-9 col-sm-8">
+
+                <h1>Siparişlerim</h1>
+                <div class="table_wrap">
+
+                    <table class="table_type_1 orders_table">
+
+                        <thead>
+
+                            <tr>
+
+                                <th class="order_number_col">Sipariş Numarası</th>
+                                <th>Tarih</th>
+                                <th>Durumu</th>
+                                <th class="order_total_col">Fiyat</th>
+                                <th class="product_action_col"></th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td data-title="Order Number"><a href="#">145000007</a></td>
+
+                                <td data-title="Order Date">9/5/2014</td>
+
+                                <td data-title="Order Status">Pending</td>
+
+                                <td data-title="Total" class="total">$5.99</td>
+
+                                <td data-title="Action">
+
+                                    <ul class="buttons_col">
+
+                                        <li>
+
+                                            <a href="#" class="button_grey">Sipariş Detayı</a>
+
+                                        </li>
+
+                                    </ul>
+
+                                </td>
+
+                            </tr>
+
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+                <footer class="bottom_box">
+
+                    <a href="#" class="button_grey middle_btn">Back</a>
+
+                </footer>
+            </main>
+        </div>
+    </div>
+</div>

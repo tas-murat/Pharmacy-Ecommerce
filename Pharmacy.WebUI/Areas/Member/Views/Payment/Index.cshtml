@@ -1,0 +1,103 @@
+﻿@using Pharmacy.BOL.Entities;
+@using Pharmacy.WebUI.Areas.Member.ViewModels
+@model PaymentVM
+<div class="secondary_page_wrapper">
+
+    <div class="container">
+
+        <ul class="breadcrumbs">
+
+            <li><a href="index.html">Home</a></li>
+            <li>Checkout</li>
+
+        </ul>
+
+        <h1 class="page_title">Alışverişi Tamamla</h1>
+
+        <!-- - - - - - - - - - - - - - Billing information - - - - - - - - - - - - - - - - -->
+
+        <section class="section_offset">
+
+            <h3>Adres Bilgileri</h3>
+
+            <div class="theme_box">
+
+                <a class="icon_btn button_dark_grey edit_button" href=""><i class="icon-pencil"></i></a>
+
+                <form class="type_2" method="post" action="/Member/Payment/Checkout">
+                    @Html.AntiForgeryToken()
+                    <ul>
+                        <li class="row">
+                            <div class="col-xs-12">
+                                <label for="Address">Adresler</label>
+                                @Html.DropDownList("Address", new SelectList(Model.Addresses, "ID", "name"), "Adresi Değiştir...", new { @onchange = "ajaxAddressChange(this)" })
+                            </div>
+                        </li>
+                        <li class="row">
+
+                            <div class="col-sm-6">
+
+                                <label for="first_name" class="required">Adı</label>
+                                <input type="text" name="name" readonly value="@Model.Seller.name" id="first_name">
+
+                            </div>
+                            <div class="col-sm-6">
+
+                                <label for="last_name" class="required">Soyadı</label>
+                                <input type="text" name="surname" readonly value="@Model.Seller.surname" id="last_name">
+
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-sm-6">
+                                <label for="company_name">Telefon</label>
+                                <input type="text" name="phone" readonly value="@Model.Seller.phone" id="company_name">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="email_address" class="required">Mail Adresi</label>
+                                <input type="text" name="emil" readonly value="@Model.Seller.email" id="email_address">
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-xs-12">
+                                <label for="address" class="required">Adres</label>
+                                <input type="text" name="address" readonly value="@Model.Addresses.FirstOrDefault().address" id="address">
+
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-sm-6">
+                                <label for="city" class="required">Şehir</label>
+                                <input type="text" name="City" readonly value="@Model.Addresses.FirstOrDefault().District.City.name" id="city">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="District" class="required">İlçe</label>
+                                <input type="text" name="" readonly value="@Model.Addresses.FirstOrDefault().District.name" id="District">
+
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-xs-12">
+                                <input type="radio" checked name="ship" id="radio_1">
+                                <label for="radio_1">Fatura adresi aynı olsun</label>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-xs-12">
+                                <input type="radio" name="ship" id="radio_2">
+                                <label for="radio_2">Fatura adresi farklı olsun</label>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-xs-12">
+                                <a href="#" class="button_blue middle_btn">Devam Et</a>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+       
+    </div><!--/ .container-->
+
+</div><!--/ .page_wrapper-->

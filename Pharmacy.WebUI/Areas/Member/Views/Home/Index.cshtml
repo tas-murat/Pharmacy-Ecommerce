@@ -1,8 +1,10 @@
 ﻿@using Pharmacy.BOL.Entities
-@model Pharmacy.WebUI.Areas.Member.ViewModels.IndexVM
+@using Pharmacy.WebUI.Areas.Member.ViewModels
+@model IndexVM
 @{
-    int memberID = ViewBag.MemberID;
+    int memberID = MemberFind.SellerID();
     string favClass = "";
+    string textFav = "Favorilere Ekle";
 }
 
 
@@ -11,198 +13,12 @@
     <div class="container">
         <ul class="breadcrumbs"></ul>
         <div class="row">
-            <aside class="col-md-3 col-sm-4 has_mega_menu">
-                <section class="section_offset">
-
-                    <h3>Categoriler</h3>
-                    <ul class="theme_menu cats">
-                        @foreach (Category hbc in Model.Categories.Where(w => w.ParentID == null))
-                        {
-                            <li class="has_megamenu">
-
-                                <a href="@Url.Action("category","product",new {id=hbc.ID })">@hbc.name</a>
-                                @if (hbc.Children.Any())
-                                {
-                                    <div class="mega_menu clearfix">
-                                        <div class="mega_menu_item">
-                                            <ul class="list_of_links">
-                                                @foreach (Category hbchild in hbc.Children)
-                                                {
-                                                    <li><a href="@Url.Action("category","product",new {id=hbchild.ID })">@hbchild.name</a></li>
-                                                }
-
-                                            </ul>
-
-                                        </div>
-
-                                    </div>
-                                }
-                            </li>
-                        }
-
-                        <li class="has_megamenu"><a href="#" class="all"><b>Tüm Kategoriler</b></a></li>
-
-                    </ul>
-
-                </section>
-                <section class="section_offset">
-                    <h3>Filtrele</h3>
-                    <form class="type_2">
-                        <div class="table_layout list_view">
-                            <div class="table_row">
-                                <div class="table_cell">
-
-                                    <fieldset>
-
-                                        <legend>Markalar</legend>
-
-                                        <ul class="checkboxes_list">
-                                            @foreach (Brand hbb in Model.Brands.OrderBy(o => o.PIndex))
-                                            {
-                                                <li>
-
-                                                    <input type="checkbox" name="brandID" id="manufacturer_@hbb.ID">
-                                                    <label for="manufacturer_@hbb.ID">@hbb.name</label>
-
-                                                </li>
-                                            }
-
-
-                                        </ul>
-
-                                    </fieldset>
-
-                                </div>
-                                <div class="table_cell">
-
-                                    <fieldset>
-
-                                        <legend>Fiyat</legend>
-
-                                        <div class="range">
-
-                                            Aralık :
-
-                                            <span class="min_val"></span> -
-                                            <span class="max_val"></span>
-
-                                            <input type="hidden" name="minPrice" class="min_value">
-
-                                            <input type="hidden" name="maxPrice" class="max_value">
-
-                                        </div>
-
-                                        <div id="slider"></div>
-
-                                    </fieldset>
-
-                                </div>
-                                <div class="table_cell">
-
-                                    <fieldset>
-
-                                        <legend>Color</legend>
-
-                                        <div class="row">
-
-                                            <div class="col-sm-6">
-
-                                                <ul class="simple_vertical_list">
-
-                                                    <li>
-
-                                                        <input type="checkbox" name="" id="color_btn_1">
-                                                        <label for="color_btn_1" class="color_btn green">Green</label>
-
-                                                    </li>
-
-                                                    <li>
-
-                                                        <input type="checkbox" name="" id="color_btn_2">
-                                                        <label for="color_btn_2" class="color_btn yellow">Yellow</label>
-
-                                                    </li>
-
-                                                    <li>
-
-                                                        <input type="checkbox" name="" id="color_btn_3">
-                                                        <label for="color_btn_3" class="color_btn red">Red</label>
-
-                                                    </li>
-
-                                                </ul>
-
-                                            </div>
-
-                                            <div class="col-sm-6">
-
-                                                <ul class="simple_vertical_list">
-
-                                                    <li>
-
-                                                        <input type="checkbox" name="" id="color_btn_4">
-                                                        <label for="color_btn_4" class="color_btn blue">Blue</label>
-
-                                                    </li>
-
-                                                    <li>
-
-                                                        <input type="checkbox" name="" id="color_btn_5">
-                                                        <label for="color_btn_5" class="color_btn grey">Grey</label>
-
-                                                    </li>
-
-                                                    <li>
-
-                                                        <input type="checkbox" name="" id="color_btn_6">
-                                                        <label for="color_btn_6" class="color_btn orange">Orange</label>
-
-                                                    </li>
-
-                                                </ul>
-
-                                            </div>
-
-                                        </div>
-
-                                    </fieldset>
-
-                                </div>
-                            </div>
-                        </div>
-                        <footer class="bottom_box">
-                            <div class="buttons_row">
-                                <button type="submit" class="button_blue middle_btn">Filtrele</button>
-                                <button type="reset" class="button_grey middle_btn filter_reset">Temizle</button>
-                            </div>
-
-                        </footer>
-
-                    </form>
-
-                </section>
-                <section class="section_offset">
-                    <h3>Etiketler</h3>
-                    <div class="tags_container">
-                        <ul class="tags_cloud">
-                            @foreach (Tag item in Model.Tags)
-                            {
-                                <li><a href="#" class="button_grey">@item.name</a></li>
-                            }
-                        </ul>
-                    </div>
-                </section>
-                <div class="section_offset">
-                    <a href="#" class="banner">
-                        <img src="/content/start/images/banner_img_11.png" alt="">
-                    </a>
-                </div>
-            </aside>
+           @{ Html.RenderAction("FiltreBar", "Home");}
 
             <main class="col-md-9 col-sm-8">
                 <section class="section_offset">
 
-                    <h3 class="widget_title offset_title">Today's Deals</h3>
+                    <h3 class="widget_title offset_title">Fırsat Ürünleri</h3>
 
                     <div class="owl_carousel widgets_carousel">
                         @foreach (Product hbp in Model.products.OrderByDescending(o => o.releaseDate).Take(3))
@@ -255,13 +71,13 @@
                                                     <tr>
                                                         <td class="special_price">
                                                             Özel Fiyat:
-                                                            <div class="price">@hbp.price TL</div>
+                                                            <div class="price">@(hbp.price-(hbp.price*8/100)) TL</div>
                                                         </td>
-                                                        @*<td class="old_price">
-                                                                Old Price:
-                                                                <div class="price">$9.99</div>
+                                                        <td class="old_price">
+                                                                Eski Fiyat:
+                                                                <div class="price">@hbp.price TL</div>
                                                             </td>
-                                                            <td class="save">
+                                                            @*<td class="save">
                                                                 You Save:
                                                                 <div class="price">$4.00</div>
                                                             </td>*@
@@ -277,9 +93,12 @@
                                             if (favorite != null)
                                             {
                                                 favClass = "favcss";
+                                                textFav = "Favorilerden Çıkar";
                                             }
-                                            else { favClass = ""; }
-                                            <button onclick="functAddFavorite(this)" class="button_dark_grey def_icon_btn middle_btn add_to_wishlist tooltip_container @favClass"><span class="tooltip top">Favorilere Ekle</span></button>
+                                            else { favClass = "";
+                                                textFav = "Favorilere Ekle";
+                                            }
+                                            <button onclick="functAddFavorite(this,@hbp.ID)" class="button_dark_grey def_icon_btn middle_btn add_to_wishlist tooltip_container @favClass"><span class="tooltip top favtext">@textFav</span></button>
                                         }
                                     </div>
                                 </div>
@@ -349,8 +168,8 @@
 
                         <div class="right_side">
                             <div class="layout_type buttons_row" data-table-container="#products_container">
-                                <a data-table-layout="grid_view" class="button_grey middle_btn icon_btn active tooltip_container"><i class="icon-th"></i><span class="tooltip top">Izgara Görünüm</span></a>
-                                <a data-table-layout="list_view list_view_products" class="button_grey middle_btn icon_btn tooltip_container"><i class="icon-th-list"></i><span class="tooltip top">Listele Görünümü</span></a>
+                                <a data-table-layout="grid_view" data-table-new="col-sm-6 col-md-4" class="button_grey middle_btn icon_btn active tooltip_container"><i class="icon-th"></i><span class="tooltip top">Izgara Görünüm</span></a>
+                                <a data-table-layout="list_view list_view_products" data-table-new="" class="button_grey middle_btn icon_btn tooltip_container"><i class="icon-th-list"></i><span class="tooltip top">Listele Görünümü</span></a>
                                 <input type="hidden" value="0" class="listKontrol" />
                             </div>
                         </div>
@@ -376,9 +195,14 @@
                                                     if (favorite != null)
                                                     {
                                                         favClass = "favcss";
+                                                        textFav = "Favorilerden Çıkar";
                                                     }
-                                                    else { favClass = ""; }
-                                                    <a onclick="functAddFavorite(this)" style="cursor:pointer" class="button_dark_grey def_icon_btn middle_btn add_to_wishlist tooltip_container @favClass"><span class="tooltip right">Favorilere Ekle</span></a>
+                                                    else
+                                                    {
+                                                        favClass = "";
+                                                        textFav = "Favorilere Ekle";
+                                                    }
+                                                    <a onclick="functAddFavorite(this,@product.ID)" style="cursor:pointer" class="button_dark_grey def_icon_btn middle_btn add_to_wishlist tooltip_container @favClass"><span class="tooltip right favtext">@textFav</span></a>
                                                 }
                                             </div>
                                         </div>
@@ -464,9 +288,7 @@
                                                 <li><a onclick="functAddCart(@product.ID,1)" class="button_blue middle_btn add_to_cart" style="cursor:pointer">Sepete Ekle</a></li>
                                                 <li>
                                                     <input type="hidden" value="@product.ID" class="productID" />
-                                                    <a onclick="functAddFavorite(this)" style="cursor:pointer" class="button_grey @favClass"><i class="icon-heart-3"></i>Favorilere Ekle</a>
-                                                    
-                                                    @*<a onclick="functAddFavorite(this)" style="cursor:pointer" class="icon_link @favClass"><i class="icon-heart-3"></i>Favorilere Ekle</a>*@
+                                                    <a onclick="functAddFavorite(this,@product.ID)" class="button_blue big_btn icon_btn @favClass"><i class="icon-heart-3"></i></a>
                                                 </li>
                                             </ul>
 

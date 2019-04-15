@@ -11,7 +11,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-7 col-sm-8">
-                    <p>Welcom visitor <a href="#">@Session["AdSoyad"]</a></p>
+                    <p>Hoşgeldiniz <a href="@Url.Action("index","Profil")">@Session["AdSoyad"]</a></p>
 
                 </div>
 
@@ -25,7 +25,7 @@
                             <ul class="dropdown site_setting_list language">
 
                                 <li class="animated_item"><a href="#"><img src="" alt=""> English</a></li>
-                                <li class="animated_item"><a href="#"><img src="" alt=""> German</a></li>
+                                <li class="animated_item"><a href="#"><img src="" alt=""> Türkçe</a></li>
                                 <li class="animated_item"><a href="/Home/logout"><img src="" alt=""> Çıkış</a></li>
 
                             </ul>
@@ -55,9 +55,8 @@
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <form class="clearfix search">
+                        <form class="clearfix search" action="/Member/Category/Search" method="get">
                             <input type="text" name="search" tabindex="1" placeholder="Ürün ara..." class="alignleft">
-
                             <button class="button_blue def_icon_btn alignleft"></button>
 
                         </form>
@@ -80,7 +79,7 @@
                                 @foreach (Category hbc in Model.Categories.Where(w => w.ParentID == null))
                                 {
                                     <li class="has_megamenu animated_item">
-                                        <a href="@Url.Action("category","product",new {id=hbc.ID })">@hbc.name</a>
+                                        <a href="@Url.Action("filter","category",new {id=hbc.ID })">@hbc.name</a>
                                         @if (hbc.Children.Any())
                                         {
                                             <div class="mega_menu clearfix">
@@ -88,7 +87,7 @@
                                                     <ul class="list_of_links">
                                                         @foreach (Category item in hbc.Children)
                                                         {
-                                                            <li><a href="@Url.Action("category","product",new {id=item.ID })">@item.name</a></li>
+                                                            <li><a href="@Url.Action("filter","category",new {id=item.ID })">@item.name</a></li>
                                                         }
                                                     </ul>
                                                 </div>
@@ -117,7 +116,7 @@
                         </div>
                         <div class="nav_item size_4">
 
-                            <a href="@Url.Action("index","wishList")" class="wishlist_button" data-amount="5"></a>
+                            <a href="@Url.Action("index","wishList")" class="wishlist_button" data-amount=""></a>
 
                         </div>
                         <div class="nav_item size_3">
@@ -146,9 +145,9 @@
 
                                 <div class="animated_item">
 
-                                    <a href="#" class="button_grey">Sepete Git</a>
+                                    <a href="@Url.Action("index","Cart")" class="button_grey">Sepete Git</a>
 
-                                    <a href="#" class="button_blue">Sipariş Ver</a>
+                                    <a href="#" class="button_blue">Siparişi Tamamla</a>
 
                                 </div>
 

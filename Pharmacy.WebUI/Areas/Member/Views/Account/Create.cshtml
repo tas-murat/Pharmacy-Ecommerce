@@ -1,4 +1,5 @@
-﻿@model Pharmacy.BOL.Entities.Product
+﻿@using Pharmacy.BOL.Entities
+@model Pharmacy.WebUI.Areas.Member.ViewModels.ProductCreatVM
 
 @{
     ViewBag.Title = "Create";
@@ -72,14 +73,14 @@
 
                                                 <label for="select_1">Marka</label>
                                                 <div class="form_el">
-                                                    @Html.DropDownList("BrandID", (SelectList)ViewBag.BrandID, "Marka Seçiniz...");
-                                                    <input type="hidden" name="newbrand">
+                                                    @Html.DropDownList("BrandID", new SelectList(Model.Brands, "ID", "name"), "Marka Seçiniz...")
+                                                    <input type="text" style="display: none;" name="newbrand" id="BrandHideID">
                                                 </div>
 
                                             </div>
                                             <div class="col-xs-12  col-md-5">
                                                 <div class="form_el">
-                                                    <input type="checkbox" name="" id="checkbox_1" onclick="funcnewMarka(this)">
+                                                    <input type="checkbox" name="chnewBrand" id="checkbox_1" onclick="funcnewMarka(this)">
                                                     <label for="checkbox_1">Yeni Marka</label>
                                                 </div>
                                             </div>
@@ -93,28 +94,36 @@
                                             </div>
                                         </li>
                                         <li class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-xs-12" style="padding-top:10px">
                                                 <label>Etiket</label>
                                                 <div class="form_el">
-                                                    <input checked type="checkbox" name="" id="checkbox_1">
-                                                    <label for="checkbox_1">Checkbox 1</label>
-                                                    <input type="checkbox" name="" id="checkbox_2">
-                                                    <label for="checkbox_2">Checkbox 2</label>
+                                                    @foreach (Tag hbt in Model.Tags)
+                                                    {
+                                                        <input type="checkbox" name="Tags" id="chtag_@hbt.ID" value="@hbt.ID">
+                                                        <label for="chtag_@hbt.ID">@hbt.name</label>
+                                                    }
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="row">
-                                            <div class="col-xs-12">
+                                            <div class="col-xs-12" style="padding-top:10px">
                                                 <label>Kategori</label>
                                                 <div class="form_el">
-                                                    <input checked type="checkbox" name="" id="checkbox_1">
-                                                    <label for="checkbox_1">Checkbox 1</label>
-                                                    <input type="checkbox" name="" id="checkbox_2">
-                                                    <label for="checkbox_2">Checkbox 2</label>
+                                                    <div style="padding:20px">
+                                                        <select id='pre-selected-options' name="Categories" multiple='multiple'>
+                                                            @foreach (Category item in Model.Categories)
+                                                            {
+                                                                <option value='@item.ID'>@item.name</option>
+                                                            }
+                                                        </select>
+                                                        <div class="selectCategori" style="display:none">
+                                                            <input type="hidden" name="CategoriIDs">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </li>
-                                        <hr  style="margin-bottom:10px"/>
+                                        <hr style="margin-bottom:10px" />
                                         @for (int i = 1; i <= 4; i++)
                                         {
                                             <li class="row">
@@ -133,7 +142,7 @@
                                         }
                                         <li class="row" style="margin-top:10px">
                                             <div class="col-xs-12">
-                                                <input type="submit" class="button_blue middle_btn" value="Kaydet"/>
+                                                <input type="submit" class="button_blue middle_btn" value="Kaydet" />
                                             </div>
                                         </li>
                                     </ul>

@@ -1,34 +1,18 @@
 ﻿<!doctype html>
-<html lang="en">
+<html lang="tr">
 <head>
-    <!-- Basic page needs
-    ============================================ -->
-    <title>ShopMe | Category Page v1</title>
+    <title>@ViewBag.Title</title>
     <meta charset="utf-8">
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <!-- Mobile specific metas
-    ============================================ -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <!-- Favicon
-    ============================================ -->
     <link rel="shortcut icon" type="image/x-icon" href="/content/start/images/fav_icon.ico">
-
-    <!-- Google web fonts
-    ============================================ -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-    <!-- Libs CSS
-    ============================================ -->
     <link rel="stylesheet" href="/content/start/css/animate.css">
     <link rel="stylesheet" href="/content/start/css/fontello.css">
     <link rel="stylesheet" href="/content/start/css/bootstrap.min.css">
-
-    <!-- Theme CSS
-    ============================================ -->
-
     <link rel="stylesheet" href="/content/start/css/jquery-ui.min.css">
     <link rel="stylesheet" href="/content/start/js/fancybox/source/jquery.fancybox.css">
     <link rel="stylesheet" href="/content/start/js/fancybox/source/helpers/jquery.fancybox-thumbs.css">
@@ -36,8 +20,9 @@
     <link rel="stylesheet" href="/content/start/js/owlcarousel/owl.carousel.css">
     <link rel="stylesheet" href="/content/start/css/style.css">
     <link href="/Content/start/css/main.css" rel="stylesheet" />
-
     <script src="/content/start/js/modernizr.js"></script>
+    <link href="/Content/start/css/multi-select.css" rel="stylesheet" />
+    <link href="/Content/start/css/formodal.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -79,12 +64,24 @@
             </div>
             @{ Html.RenderAction("Footer", "Home");}
         </footer>
+        <a href="#openModal">Open Modal</a>
+
+        <div id="openModal" class="mymodalDialog">
+            <div>
+                <a href="#close" title="kapat" class="myclose">X</a>
+                <h2>Modal Box</h2>
+                <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+                <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+            </div>
+        </div>
     </div>
     <span class="spanMenuIndex" style="display:none">@ViewBag.ActiveIndex</span>
-    <!-- Include Libs & Plugins
-    ============================================ -->
+    <span class="spanSidebarIndex" style="display:none">@ViewBag.ActiveSidebar</span>
+    <script src="~/Content/start/js/jq.js"></script>
     <script src="/content/start/js/jquery-2.1.1.min.js"></script>
     <script src="/content/start/js/jquery-ui.min.js"></script>
+    <script src="~/Content/start/js/bootstrap.min2.js"></script>
+    <script src="/Content/start/js/bootstrap.min.js"></script>
     <script src="/content/start/js/queryloader2.min.js"></script>
     <script src="/content/start/js/jquery.elevateZoom-3.0.8.min.js"></script>
     <script src="/content/start/js/fancybox/source/jquery.fancybox.pack.js"></script>
@@ -98,13 +95,32 @@
     <script src="/content/start/js/arcticmodal/jquery.arcticmodal.js"></script>
     <script src="/content/start/js/colorpicker/colorpicker.js"></script>
     <script src="/content/start/js/retina.min.js"></script>
-    <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js"></script>
-
-    <!-- Theme files
-    ============================================ -->
+    <script src="/Content/start/js/addthis_widget.js"></script>
     <script src="/content/start/js/theme.plugins.js"></script>
     <script src="/content/start/js/theme.core.js"></script>
+    <script src="/Content/start/js/jquery.multi-select.js"></script>
+    <script type="text/javascript">
+        // run pre selected options
+        $('#pre-selected-options').multiSelect({
+            afterSelect: function (values) {
+                var inputVal = $('#pre-selected-options').siblings('.selectCategori').children('input').val();
+                if (inputVal != "")
+                    $('#pre-selected-options').siblings('.selectCategori').children('input').val(inputVal + values + ',');
+                else $('#pre-selected-options').siblings('.selectCategori').children('input').val(values + ',');
+            },
+            afterDeselect: function (values) {
+                var inputVal2 = $('#pre-selected-options').siblings('.selectCategori').children('input').val();
+                if (inputVal2 != "") {
+                    if (inputVal2.indexOf(values) != -1) {
+                        inputVal2=inputVal2.replace(values+',', '');
+                        $('#pre-selected-options').siblings('.selectCategori').children('input').val(inputVal2)
+                    }
+                }
+            }
+        });
+    </script>
     <script src="/Content/start/js/main.js"></script>
     <script src="/Content/start/js/jscart.js"></script>
+    <script src="/Content/start/js/formodaljs.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@ namespace Pharmacy.BOL.Entities
     public class Brand
     {
         public int ID { get; set; }
-        [Column(TypeName = "varchar"), StringLength(100)]
+        [Column(TypeName = "varchar"), StringLength(100), Display(Name = "Marka")]
         public string name { get; set; }
         [Display(Name = "Görüntülenme Sırası")]
         public int PIndex { get; set; }

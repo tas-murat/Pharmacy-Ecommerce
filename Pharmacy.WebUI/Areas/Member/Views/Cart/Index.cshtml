@@ -1,14 +1,22 @@
-﻿
+﻿@using Pharmacy.WebUI.Areas.Member.ViewModels
+@using Pharmacy.BOL.Entities
+@model CartVM
+@{
+    int memberID = MemberFind.SellerID();
+    string favClass = "";
+    string textFav = "Favorilere Ekle";
+}
+
 <div class="secondary_page_wrapper">
 
     <div class="container">
         <ul class="breadcrumbs">
 
-            <li><a href="index.html">Home</a></li>
-            <li>Shopping Cart</li>
+            <li><a href="/Member">Ana Sayfa</a></li>
+            <li>Alışveriş Sepeti</li>
         </ul>
         <section class="section_offset">
-            <h1>Shopping Cart</h1>
+            <h1>Alış Veriş Sepetim</h1>
             <div class="table_wrap">
 
                 <table class="table_type_1 shopping_cart_table">
@@ -16,267 +24,57 @@
                     <thead>
 
                         <tr>
-                            <th class="product_image_col">Product Image</th>
-                            <th class="product_title_col">Product Name</th>
-                            <th>SKU</th>
-                            <th>Price</th>
-                            <th class="product_qty_col">Quantity</th>
-                            <th>Total</th>
-                            <th class="product_actions_col">Action</th>
+                            <th class="product_image_col">Ürün Resmi</th>
+                            <th class="product_title_col">Adı</th>
+
+                            <th class="product_qty_col">Adet</th>
+                            <th>Fiyat</th>
+                            <th class="product_actions_col"></th>
                         </tr>
 
                     </thead>
 
                     <tbody>
+                        @foreach (CartDetail hbc in Model.CartDetails)
+                        {
+                            <tr>
 
-                        <tr>
+                                <td class="product_image_col" data-title="Product Image">
 
-                            <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
+                                    <a href="@Url.Action("index","Product",new {id=hbc.ProductID })"><img src="@hbc.FPath" alt="@hbc.ProductName"></a>
 
-                            <td class="product_image_col" data-title="Product Image">
+                                </td>
 
-                                <a href="#"><img src="/content/start/images/shopping_cart_img_3.jpg" alt=""></a>
+                                <td data-title="Product Name">
 
-                            </td>
+                                    <a href="@Url.Action("index","Product",new {id=hbc.ProductID })" class="product_title">@hbc.ProductName</a>
+                                    <ul class="sc_product_info"></ul>
+                                </td>
+                                <td data-title="Quantity">
 
-                            <!-- - - - - - - - - - - - - - End of product Image - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Product name - - - - - - - - - - - - - - - - -->
+                                    <div class="qty min clearfix">
 
-                            <td data-title="Product Name">
+                                        <button class="theme_button" data-direction="minus" data-productID="ds">&#45;</button>
+                                        <input type="text" name="" class="quantyval" value="@hbc.Quantity">
+                                        <button class="theme_button" data-direction="plus" data-productID="sd">&#43;</button>
 
-                                <a href="#" class="product_title">Adipiscing aliquet sed in lacus, Liqui-gels 24</a>
+                                    </div>
+                                    <input type="hidden" class="proID" value="@hbc.ProductID" />
+                                </td>
 
-                                <ul class="sc_product_info">
+                                <td class="total" data-title="Total">
+                                    @(hbc.Price * hbc.Quantity) TL
+                                </td>
 
-                                    <li>Size: Big</li>
-                                    <li>Color: Red</li>
+                                <td data-title="Action">
 
-                                </ul>
+                                    <a onclick="deleteCart(@hbc.ProductID);" class="button_dark_grey icon_btn remove_product"><i class="icon-cancel-2"></i></a>
 
-                            </td>
+                                </td>
 
-                            <!-- - - - - - - - - - - - - - End of product name - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - SKU - - - - - - - - - - - - - - - - -->
 
-                            <td data-title="SKU">
-
-                                PS01
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of SKU - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Price - - - - - - - - - - - - - - - - -->
-
-                            <td class="subtotal" data-title="Price">
-
-                                $5.99
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of Price - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Quantity - - - - - - - - - - - - - - - - -->
-
-                            <td data-title="Quantity">
-
-                                <div class="qty min clearfix">
-
-                                    <button class="theme_button" data-direction="minus">&#45;</button>
-                                    <input type="text" name="" value="1">
-                                    <button class="theme_button" data-direction="plus">&#43;</button>
-
-                                </div><!--/ .qty.min.clearfix-->
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of quantity - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Total - - - - - - - - - - - - - - - - -->
-
-                            <td class="total" data-title="Total">
-
-                                $5.99
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of total - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Action - - - - - - - - - - - - - - - - -->
-
-                            <td data-title="Action">
-
-                                <a href="#" class="button_dark_grey icon_btn edit_product"><i class="icon-pencil"></i></a>
-
-                                <a href="#" class="button_dark_grey icon_btn remove_product"><i class="icon-cancel-2"></i></a>
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of action - - - - - - - - - - - - - - - - -->
-
-                        </tr>
-
-                        <tr>
-
-                            <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
-
-                            <td class="product_image_col" data-title="Product Image">
-
-                                <a href="#"><img src="/content/start/images/shopping_cart_img_2.jpg" alt=""></a>
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of product Image - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Product name - - - - - - - - - - - - - - - - -->
-
-                            <td data-title="Product Name">
-
-                                <a href="#" class="product_title">Sed in lacus ut enim adipiscing dictum elementum velit Relief 4.25 fl oz (126ml)</a>
-
-                                <ul class="sc_product_info">
-
-                                    <li>Size: Big</li>
-                                    <li>Color: Red</li>
-
-                                </ul>
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of product name - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - SKU - - - - - - - - - - - - - - - - -->
-
-                            <td data-title="SKU">
-
-                                PS02
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of SKU - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Price - - - - - - - - - - - - - - - - -->
-
-                            <td class="subtotal" data-title="Price">
-
-                                $8.99
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of Price - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Quantity - - - - - - - - - - - - - - - - -->
-
-                            <td data-title="Quantity">
-
-                                <div class="qty min clearfix">
-
-                                    <button class="theme_button" data-direction="minus">&#45;</button>
-                                    <input type="text" name="" value="1">
-                                    <button class="theme_button" data-direction="plus">&#43;</button>
-
-                                </div><!--/ .qty.min.clearfix-->
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of quantity - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Total - - - - - - - - - - - - - - - - -->
-
-                            <td class="total" data-title="Total">
-
-                                $8.99
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of total - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Action - - - - - - - - - - - - - - - - -->
-
-                            <td data-title="Action">
-
-                                <a href="#" class="button_dark_grey icon_btn edit_product"><i class="icon-pencil"></i></a>
-
-                                <a href="#" class="button_dark_grey icon_btn remove_product"><i class="icon-cancel-2"></i></a>
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of action - - - - - - - - - - - - - - - - -->
-
-                        </tr>
-
-                        <tr>
-
-                            <!-- - - - - - - - - - - - - - Product Image - - - - - - - - - - - - - - - - -->
-
-                            <td class="product_image_col" data-title="Product Image">
-
-                                <a href="#"><img src="/content/start/images/shopping_cart_img_1.jpg" alt=""></a>
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of product Image - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Product name - - - - - - - - - - - - - - - - -->
-
-                            <td data-title="Product Name">
-
-                                <a href="#" class="product_title">Donec porta diam eu massa quisque Mint 160 ea</a>
-
-                                <ul class="sc_product_info">
-
-                                    <li>Size: Big</li>
-                                    <li>Color: Red</li>
-
-                                </ul>
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of product name - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - SKU - - - - - - - - - - - - - - - - -->
-
-                            <td data-title="SKU">
-
-                                PS03
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of SKU - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Price - - - - - - - - - - - - - - - - -->
-
-                            <td class="subtotal" data-title="Price">
-
-                                $76.99
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of Price - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Quantity - - - - - - - - - - - - - - - - -->
-
-                            <td data-title="Quantity">
-
-                                <div class="qty min clearfix">
-
-                                    <button class="theme_button" data-direction="minus">&#45;</button>
-                                    <input type="text" name="" value="1">
-                                    <button class="theme_button" data-direction="plus">&#43;</button>
-
-                                </div><!--/ .qty.min.clearfix-->
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of quantity - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Total - - - - - - - - - - - - - - - - -->
-
-                            <td class="total" data-title="Total">
-
-                                $76.99
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of total - - - - - - - - - - - - - - - - -->
-                            <!-- - - - - - - - - - - - - - Action - - - - - - - - - - - - - - - - -->
-
-                            <td data-title="Action">
-
-                                <a href="#" class="button_dark_grey icon_btn edit_product"><i class="icon-pencil"></i></a>
-
-                                <a href="#" class="button_dark_grey icon_btn remove_product"><i class="icon-cancel-2"></i></a>
-
-                            </td>
-
-                            <!-- - - - - - - - - - - - - - End of action - - - - - - - - - - - - - - - - -->
-
-                        </tr>
+                            </tr>
+                        }
 
                     </tbody>
 
@@ -288,13 +86,13 @@
 
                 <div class="left_side">
 
-                    <a href="#" class="button_blue middle_btn">Continue Shopping</a>
+                    <a href="#" class="button_blue middle_btn">Alış Verişe Devam Et</a>
 
                 </div>
 
                 <div class="right_side">
 
-                    <a href="#" class="button_grey middle_btn">Clear Shopping Cart</a>
+                    @*<a href="#" class="button_grey middle_btn">Clear Shopping Cart</a>*@
 
                 </div>
 
@@ -309,11 +107,11 @@
 
                 <section class="col-sm-4">
 
-                    <h3>Discount Codes</h3>
+                    <h3>İndirim Kodu</h3>
 
                     <div class="theme_box">
 
-                        <p class="form_caption">Enter your coupon code if you have one.</p>
+                        <p class="form_caption">kupon kodunuzvarsa giriniz.</p>
 
                         <form id="discount_code">
 
@@ -335,96 +133,16 @@
 
                     </div><!--/ .theme_box -->
 
-                    <footer class="bottom_box">
+                    <div class="bottom_box">
 
-                        <button type="submit" form="discount_code" class="button_grey middle_btn">Apply Coupon</button>
+                        <button type="submit" form="discount_code" class="button_grey middle_btn">Kuponu Onayla</button>
 
-                    </footer>
+                    </div>
 
-                </section><!--/ [col] -->
-
+                </section>
                 <section class="col-sm-4">
 
-                    <h3>Estimate Shipping and Tax</h3>
-
-                    <div class="theme_box">
-
-                        <p class="form_caption">Enter your destination to get a shipping estimate.</p>
-
-                        <form id="estimate_shipping" class="type_2">
-
-                            <ul>
-
-                                <li class="row">
-
-                                    <div class="col-xs-12">
-
-                                        <label>Country</label>
-
-                                        <div class="custom_select">
-
-                                            <select>
-
-                                                <option value="Australia">Australia</option>
-                                                <option value="Austria">Austria</option>
-                                                <option value="Argentina">Argentina</option>
-                                                <option value="Canada">Canada</option>
-                                                <option selected value="USA">USA</option>
-
-                                            </select>
-
-                                        </div>
-
-                                    </div>
-
-                                </li>
-
-                                <li class="row">
-
-                                    <div class="col-lg-7 col-md-6">
-
-                                        <label>State/Province</label>
-
-                                        <div class="custom_select">
-
-                                            <select>
-
-                                                <option value="Alabama">Alabama</option>
-                                                <option value="Illinois">Illinois</option>
-                                                <option value="Kansas">Kansas</option>
-
-                                            </select>
-
-                                        </div>
-
-                                    </div><!--/ [col] -->
-
-                                    <div class="col-lg-5 col-md-6">
-
-                                        <label for="postal_code">Zip/Postal Code</label>
-                                        <input type="text" name="" id="postal_code">
-
-                                    </div><!--/ [col] -->
-
-                                </li>
-
-                            </ul>
-
-                        </form>
-
-                    </div><!--/ .theme_box -->
-
-                    <footer class="bottom_box">
-
-                        <button type="submit" form="estimate_shipping" class="button_grey middle_btn">Get a Quote</button>
-
-                    </footer><!--/ .bottom_box -->
-
-                </section><!--/ [col] -->
-
-                <section class="col-sm-4">
-
-                    <h3>Total</h3>
+                    <h3>Toplam</h3>
 
                     <div class="table_wrap">
 
@@ -434,15 +152,15 @@
 
                                 <tr>
 
-                                    <td>Subtotal</td>
-                                    <td>$146.78</td>
+                                    <td>Toplam Fiyat</td>
+                                    <td>@Model.CartDetails.Sum(s => s.Quantity * s.Price) TL</td>
 
                                 </tr>
 
                                 <tr class="total">
 
-                                    <td>Total</td>
-                                    <td>$146.78</td>
+                                    <td>İndirimli Fiyat</td>
+                                    <td>@Model.CartDetails.Sum(s => s.Quantity * s.Price) TL</td>
 
                                 </tr>
 
@@ -452,296 +170,76 @@
 
                     </div>
 
-                    <footer class="bottom_box">
+                    <div class="bottom_box">
 
-                        <a class="button_blue middle_btn" href="#">Proceed to Checkout</a>
+                        <a class="button_blue middle_btn" href="@Url.Action("index","Payment")">Sepeti Onayla</a>
 
                         <div class="single_link_wrap">
-
-                            <a href="#">Checkout with Multiple Addresses</a>
-
                         </div>
 
-                    </footer>
+                    </div>
 
                 </section><!-- / [col] -->
 
             </div><!--/ .row -->
 
-        </div><!--/ .section_offset -->
-
+        </div>
         <section class="section_offset">
 
             <h3 class="offset_title">You Might Also Like</h3>
             <div class="owl_carousel six_items">
-                <div class="product_item">
-                    <div class="image_wrap">
-                        <img src="/content/start/images/product_img_18.jpg" alt="">
-                        <div class="actions_wrap">
-                            <div class="centered_buttons">
+                @foreach (Product hbp in Model.BestSellerProducts)
+                {
+                    <div class="product_item">
 
-                                <a href="#" class="button_dark_grey quick_view" data-modal-url="modals/quick_view.html">Quick View</a>
+                        <div class="image_wrap">
 
-                                <a href="#" class="button_blue add_to_cart">Add to Cart</a>
+                             <img src="@hbp.Pictures.OrderBy(o=>o.pIndex).FirstOrDefault().FPath"style="height:200px" alt="@hbp.name">
 
-                            </div><!--/ .centered_buttons -->
+                            <div class="actions_wrap">
 
-                            <a href="#" class="button_dark_grey def_icon_btn add_to_wishlist tooltip_container"><span class="tooltip right">Add to Wishlist</span></a>
+                                <div class="centered_buttons">
 
-                            <a href="#" class="button_dark_grey def_icon_btn add_to_compare tooltip_container"><span class="tooltip left">Add to Compare</span></a>
+                                    <a href="@Url.Action("Index","Product",new {id=hbp.ID })" class="button_dark_grey quick_view">Ürün Detayı</a>
 
-                        </div><!--/ .actions_wrap-->
-                        <!-- - - - - - - - - - - - - - End of product actions - - - - - - - - - - - - - - - - -->
+                                </div><!--/ .centered_buttons -->
+                                @{Favorite favorite = hbp.Favorites.Where(w => w.SellerID == memberID).FirstOrDefault();
+                                    if (favorite != null)
+                                    {
+                                        favClass = "favcss";
+                                        textFav = "Favorilerden Çıkar";
+                                    }
+                                    else
+                                    {
+                                        favClass = "";
+                                        textFav = "Favorilere Ekle";
+                                    }
+                                    <a onclick="functAddFavorite(this,@hbp.ID)" class="button_dark_grey def_icon_btn add_to_wishlist tooltip_container addCursor @favClass"><span class="tooltip right favtext">@textFav</span></a> }
 
-                    </div><!--/. image_wrap-->
-                    <!-- - - - - - - - - - - - - - End thumbnail - - - - - - - - - - - - - - - - -->
-                    <!-- - - - - - - - - - - - - - Label - - - - - - - - - - - - - - - - -->
+                            </div>
+                        </div>
+                        <div class="description">
 
-                    <div class="label_offer percentage">
+                            <p><a href="@Url.Action("index","Product",new {id=hbp.ID })">@hbp.name</a></p>
 
-                        <div>30%</div>OFF
+                            <div class="clearfix product_info">
 
+                                <p class="product_price"><b>@hbp.price TL</b></p>
+                                <ul class="rating">
+
+                                    <li class="active"></li>
+                                    <li class="active"></li>
+                                    <li class="active"></li>
+                                    <li class="active"></li>
+                                    <li class="active"></li>
+
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+                }
 
-                    <!-- - - - - - - - - - - - - - End label - - - - - - - - - - - - - - - - -->
-                    <!-- - - - - - - - - - - - - - Countdown - - - - - - - - - - - - - - - - -->
-
-                    <div class="countdown" data-year="2016" data-month="11" data-day="6" data-hours="15" data-minutes="0" data-seconds="0"></div>
-
-                    <!-- - - - - - - - - - - - - - End countdown - - - - - - - - - - - - - - - - -->
-                    <!-- - - - - - - - - - - - - - Product description - - - - - - - - - - - - - - - - -->
-
-                    <div class="description">
-
-                        <p><a href="#">Metus nulla facilisi, Original 24 fl oz</a></p>
-
-                        <div class="clearfix product_info">
-
-                            <p class="product_price"><s>$9.99</s> <b>$5.99</b></p>
-
-                            <!-- - - - - - - - - - - - - - Product rating - - - - - - - - - - - - - - - - -->
-
-                            <ul class="rating">
-
-                                <li class="active"></li>
-                                <li class="active"></li>
-                                <li class="active"></li>
-                                <li class="active"></li>
-                                <li></li>
-
-                            </ul>
-
-                            <!-- - - - - - - - - - - - - - End product rating - - - - - - - - - - - - - - - - -->
-
-                        </div><!--/ .clearfix.product_info-->
-
-                    </div>
-
-                    <!-- - - - - - - - - - - - - - End of product description - - - - - - - - - - - - - - - - -->
-
-                </div><!--/ .product_item-->
-                <!-- - - - - - - - - - - - - - End product - - - - - - - - - - - - - - - - -->
-                <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
-
-                <div class="product_item">
-
-                    <!-- - - - - - - - - - - - - - Thumbnail - - - - - - - - - - - - - - - - -->
-
-                    <div class="image_wrap">
-
-                        <img src="/content/start/images/product_img_19.jpg" alt="">
-
-                        <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
-
-                        <div class="actions_wrap">
-
-                            <div class="centered_buttons">
-
-                                <a href="#" class="button_dark_grey quick_view" data-modal-url="modals/quick_view.html">Quick View</a>
-
-                                <a href="#" class="button_blue add_to_cart">Add to Cart</a>
-
-                            </div><!--/ .centered_buttons -->
-
-                            <a href="#" class="button_dark_grey def_icon_btn add_to_wishlist tooltip_container"><span class="tooltip right">Add to Wishlist</span></a>
-
-                            <a href="#" class="button_dark_grey def_icon_btn add_to_compare tooltip_container"><span class="tooltip left">Add to Compare</span></a>
-
-                        </div><!--/ .actions_wrap-->
-                        <!-- - - - - - - - - - - - - - End of product actions - - - - - - - - - - - - - - - - -->
-
-                    </div><!--/. image_wrap-->
-                    <!-- - - - - - - - - - - - - - End thumbnail - - - - - - - - - - - - - - - - -->
-                    <!-- - - - - - - - - - - - - - Product description - - - - - - - - - - - - - - - - -->
-
-                    <div class="description">
-
-                        <p><a href="#">Tincidunt ac viverra nam elit agna endrerit 29 ea</a></p>
-
-                        <div class="clearfix product_info">
-
-                            <p class="product_price"><b>$14.99</b></p>
-
-                            <!-- - - - - - - - - - - - - - Product rating - - - - - - - - - - - - - - - - -->
-
-                            <ul class="rating">
-
-                                <li class="active"></li>
-                                <li class="active"></li>
-                                <li class="active"></li>
-                                <li class="active"></li>
-                                <li class="active"></li>
-
-                            </ul>
-
-                            <!-- - - - - - - - - - - - - - End product rating - - - - - - - - - - - - - - - - -->
-
-                        </div><!--/ .clearfix.product_info-->
-
-                    </div>
-
-                    <!-- - - - - - - - - - - - - - End of product description - - - - - - - - - - - - - - - - -->
-
-                </div><!--/ .product_item-->
-                <!-- - - - - - - - - - - - - - End of product - - - - - - - - - - - - - - - - -->
-                <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
-
-                <div class="product_item">
-
-                    <!-- - - - - - - - - - - - - - Thumbnail - - - - - - - - - - - - - - - - -->
-
-                    <div class="image_wrap">
-
-                        <img src="/content/start/images/product_img_20.jpg" alt="">
-
-                        <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
-
-                        <div class="actions_wrap">
-
-                            <div class="centered_buttons">
-
-                                <a href="#" class="button_dark_grey quick_view" data-modal-url="modals/quick_view.html">Quick View</a>
-
-                                <a href="#" class="button_blue add_to_cart">Add to Cart</a>
-
-                            </div><!--/ .centered_buttons -->
-
-                            <a href="#" class="button_dark_grey def_icon_btn add_to_wishlist tooltip_container"><span class="tooltip right">Add to Wishlist</span></a>
-
-                            <a href="#" class="button_dark_grey def_icon_btn add_to_compare tooltip_container"><span class="tooltip left">Add to Compare</span></a>
-
-                        </div><!--/ .actions_wrap-->
-                        <!-- - - - - - - - - - - - - - End of product actions - - - - - - - - - - - - - - - - -->
-
-                    </div><!--/. image_wrap-->
-                    <!-- - - - - - - - - - - - - - End thumbnail - - - - - - - - - - - - - - - - -->
-                    <!-- - - - - - - - - - - - - - Label - - - - - - - - - - - - - - - - -->
-
-                    <div class="label_new">New</div>
-
-                    <!-- - - - - - - - - - - - - - End label - - - - - - - - - - - - - - - - -->
-                    <!-- - - - - - - - - - - - - - Product description - - - - - - - - - - - - - - - - -->
-
-                    <div class="description">
-
-                        <p><a href="#">Lorem ipsum dolor sit amet...</a></p>
-
-                        <div class="clearfix product_info">
-
-                            <p class="product_price"><b>$73.99</b></p>
-
-                        </div><!--/ .clearfix.product_info-->
-
-                    </div>
-
-                    <!-- - - - - - - - - - - - - - End of product description - - - - - - - - - - - - - - - - -->
-
-                </div><!--/ .product_item-->
-                <!-- - - - - - - - - - - - - - End of product - - - - - - - - - - - - - - - - -->
-                <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
-
-                <div class="product_item">
-
-                    <!-- - - - - - - - - - - - - - Thumbnail - - - - - - - - - - - - - - - - -->
-
-                    <div class="image_wrap">
-
-                        <img src="/content/start/images/product_img_21.jpg" alt="">
-
-                        <!-- - - - - - - - - - - - - - Product actions - - - - - - - - - - - - - - - - -->
-
-                        <div class="actions_wrap">
-
-                            <div class="centered_buttons">
-
-                                <a href="#" class="button_dark_grey quick_view" data-modal-url="modals/quick_view.html">Quick View</a>
-
-                                <a href="#" class="button_blue add_to_cart">Add to Cart</a>
-
-                            </div><!--/ .centered_buttons -->
-
-                            <a href="#" class="button_dark_grey def_icon_btn add_to_wishlist tooltip_container"><span class="tooltip right">Add to Wishlist</span></a>
-
-                            <a href="#" class="button_dark_grey def_icon_btn add_to_compare tooltip_container"><span class="tooltip left">Add to Compare</span></a>
-
-                        </div><!--/ .actions_wrap-->
-                        <!-- - - - - - - - - - - - - - End of product actions - - - - - - - - - - - - - - - - -->
-
-                    </div><!--/. image_wrap-->
-                    <!-- - - - - - - - - - - - - - End thumbnail - - - - - - - - - - - - - - - - -->
-                    <!-- - - - - - - - - - - - - - Label - - - - - - - - - - - - - - - - -->
-
-                    <div class="label_offer percentage">
-
-                        <div>15%</div>OFF
-
-                    </div>
-
-                    <!-- - - - - - - - - - - - - - End label - - - - - - - - - - - - - - - - -->
-                    <!-- - - - - - - - - - - - - - Countdown - - - - - - - - - - - - - - - - -->
-
-                    <div class="countdown" data-year="2016" data-month="1" data-day="31" data-hours="18" data-minutes="40" data-seconds="40"></div>
-
-                    <!-- - - - - - - - - - - - - - End countdown - - - - - - - - - - - - - - - - -->
-                    <!-- - - - - - - - - - - - - - Product description - - - - - - - - - - - - - - - - -->
-
-                    <div class="description">
-
-                        <p><a href="#">Etiam cursus leo vel metus nulla facilisi...</a></p>
-
-                        <div class="clearfix product_info">
-
-                            <p class="product_price"><s>$5.99</s> <b>$2.99</b></p>
-
-                            <!-- - - - - - - - - - - - - - Product rating - - - - - - - - - - - - - - - - -->
-
-                            <ul class="rating">
-
-                                <li class="active"></li>
-                                <li class="active"></li>
-                                <li class="active"></li>
-                                <li></li>
-                                <li></li>
-
-                            </ul>
-
-                            <!-- - - - - - - - - - - - - - End product rating - - - - - - - - - - - - - - - - -->
-
-                        </div><!--/ .clearfix.product_info-->
-
-                    </div>
-
-                    <!-- - - - - - - - - - - - - - End of product description - - - - - - - - - - - - - - - - -->
-
-                </div><!--/ .product_item-->
-                <!-- - - - - - - - - - - - - - End of product - - - - - - - - - - - - - - - - -->
-                <!-- - - - - - - - - - - - - - Product - - - - - - - - - - - - - - - - -->
-
-            </div><!--/ .owl_carousel-->
-            <!-- - - - - - - - - - - - - - End of you might also like - - - - - - - - - - - - - - - - -->
-
+            </div>
         </section>
-
-    </div><!--/ .container-->
-
-</div><!--/ .page_wrapper-->
+    </div>
+</div>

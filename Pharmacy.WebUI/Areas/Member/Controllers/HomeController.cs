@@ -13,7 +13,7 @@ using Pharmacy.WebUI.Models;
 
 namespace Pharmacy.WebUI.Areas.Member.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "member")]
     public class HomeController : Controller
     {
         SqlRepository<Product> repoProduct = new SqlRepository<Product>();
@@ -30,25 +30,29 @@ namespace Pharmacy.WebUI.Areas.Member.Controllers
         public ActionResult Index()
         {
             ViewBag.ActiveIndex = 1;
+            ViewBag.Title = "Sora-Eczane| PazarYeri";
+            int sellerID = MemberFind.SellerID();
+            ViewBag.MemberID = sellerID;
             IndexVM ındexVM = new IndexVM {
-                products=repoProduct.GetAll().Include(i=>i.Pictures).Include(i => i.Seller).Include(i=>i.Favorites),
+                products=repoProduct.GetAll().Include(i=>i.Pictures).Include(i => i.Seller).Include(i=>i.Favorites).Where(w=>w.SellerID!= sellerID),
                 Categories=repoCategory.GetAll().Include(i => i.Children).ToList(),
                 Brands=repoBrand.GetAll().ToList(),
                 Tags=repoTag.GetAll().ToList()
             };
-            string memberUserName = HttpContext.User.Identity.Name;
-            Seller seller = repoSeller.GetBy(g => g.username == memberUserName);
-            ViewBag.MemberID = seller.ID;
+            
 
             return View(ındexVM);
         }
+      
         public ActionResult FAQ()
         {
             ViewBag.ActiveIndex = 5;
+            ViewBag.Title = "Sora-Eczane| SSS";
             return View(repoFAQCategory.GetAll().Include(i=>i.FAQs));
         }
         public ActionResult Contact()
         {
+            ViewBag.Title = "Sora-Eczane| İletişim";
             ViewBag.ActiveIndex = 6;
             return View(repoFAQCategory.GetAll().Include(i => i.FAQs));
         }
@@ -62,13 +66,13 @@ namespace Pharmacy.WebUI.Areas.Member.Controllers
                 {
 
                     if (!Directory.Exists(Server.MapPath("~/Content/images/contact"))) Directory.CreateDirectory(Server.MapPath("~/Content/images/contact"));
-                    string yol = Path.Combine(Server.MapPath("~/Content/images/contact"), Path.GetFileName(Tools.DosyaYoluOlustur(file.FileName, contacte.ID.ToString())));
+                    string yol = Path.Combine(Server.MapPath("~/Content/images/contact"), Path.GetFileName(FilePath.getfilePath(file.FileName, contacte.ID.ToString())));
                     file.SaveAs(yol);
-                    contacte.file = "/Content/images/contact" + Path.GetFileName(Tools.DosyaYoluOlustur(file.FileName, contacte.ID.ToString()));
+                    contacte.file = "/Content/images/contact" + Path.GetFileName(FilePath.getfilePath(file.FileName, contacte.ID.ToString()));
                 }
                 repoContacte.Add(contacte);
                 SendMessage ms = new SendMessage();
-                bool kontrol = ms.MailGonder(contacte.name, contacte.email, contacte.subject, contacte.message);
+                bool kontrol = ms.sendEmail(contacte.name, contacte.email, contacte.subject, contacte.message);
                 if (kontrol) TempData["sonuc"] = "Mesajınız başarıyla gönderildi";
                 else TempData["sonuc"] = "Mesajınız gönderilemedi";
                 return RedirectToAction("Contact");
@@ -96,6 +100,19 @@ namespace Pharmacy.WebUI.Areas.Member.Controllers
                 Categories = repoCategory.GetAll().Include(i => i.Children).ToList()
             };
             return PartialView(footerVM);
+        }
+        public ActionResult FiltreBar()
+        {
+            int sellerID = MemberFind.SellerID();
+            ViewBag.MemberID = sellerID;
+            IndexVM ındexVM = new IndexVM
+            {
+                products = repoProduct.GetAll().Include(i => i.Pictures).Include(i => i.Seller).Include(i => i.Favorites).Where(w => w.SellerID != sellerID),
+                Categories = repoCategory.GetAll().Include(i => i.Children).ToList(),
+                Brands = repoBrand.GetAll().ToList(),
+                Tags = repoTag.GetAll().ToList()
+            };
+            return PartialView(ındexVM);
         }
         [HttpPost]
         public void AddCart(int productID, int quantity)

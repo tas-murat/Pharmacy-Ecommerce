@@ -1,0 +1,117 @@
+﻿@using Pharmacy.BOL.Entities
+@using Pharmacy.WebUI.Areas.Member.ViewModels
+@model IndexVM
+<aside class="col-md-3 col-sm-4 has_mega_menu">
+    <section class="section_offset">
+
+        <h3>Categoriler</h3>
+        <ul class="theme_menu cats">
+            @foreach (Category hbc in Model.Categories.Where(w => w.ParentID == null))
+            {
+                <li class="has_megamenu">
+
+                    <a href="@Url.Action("filter","category",new {id=hbc.ID })">@hbc.name</a>
+                    @if (hbc.Children.Any())
+                    {
+                        <div class="mega_menu clearfix">
+                            <div class="mega_menu_item">
+                                <ul class="list_of_links">
+                                    @foreach (Category hbchild in hbc.Children)
+                                    {
+                                        <li><a href="@Url.Action("filter","category",new {id=hbchild.ID })">@hbchild.name</a></li>
+                                    }
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    }
+                </li>
+            }
+
+            <li class="has_megamenu"><a href="#" class="all"><b>Tüm Kategoriler</b></a></li>
+
+        </ul>
+
+    </section>
+    <section class="section_offset">
+        <h3>Filtrele</h3>
+        <form class="type_2" method="get" action="/Member/Category/filter">
+            <div class="table_layout list_view">
+                <div class="table_row">
+                    <div class="table_cell">
+
+                        <fieldset>
+
+                            <legend>Fiyat</legend>
+
+                            <div class="range">
+
+                                Aralık :
+
+                                <span class="min_val"></span> -
+                                <span class="max_val"></span>
+
+                                <input type="hidden" name="minPrice" class="min_value">
+
+                                <input type="hidden" name="maxPrice" class="max_value">
+
+                            </div>
+
+                            <div id="slider"></div>
+
+                        </fieldset>
+
+                    </div>
+                    <div class="table_cell">
+
+                        <fieldset>
+                            <legend>Markalar</legend>
+                            <div class="row">
+                                <div >
+                                    <ul class="simple_vertical_list">
+                                        @foreach (Brand hbb in Model.Brands)
+                                        {
+                                            <li class="col-sm-6">
+                                                <input type="checkbox" name="BrandID" value="@hbb.ID" id="brand_@hbb.ID">
+                                                <label for="brand_@hbb.ID" class="color_btn grey">@hbb.name</label>
+
+                                            </li>
+                                        }
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_box">
+                <div class="buttons_row">
+                    <button type="submit" class="button_blue middle_btn">Filtrele</button>
+                    <button type="reset" class="button_grey middle_btn filter_reset">Temizle</button>
+                </div>
+            </div>
+
+        </form>
+
+    </section>
+    <section class="section_offset">
+        <h3>Etiketler</h3>
+        <div class="tags_container">
+            <ul class="tags_cloud">
+                @foreach (Tag item in Model.Tags)
+                {
+                    <li><a href="@Url.Action("filter","category",new {tagID=item.ID })" class="button_grey">@item.name</a></li>
+                }
+            </ul>
+        </div>
+    </section>
+    <div class="section_offset">
+        <a href="#" class="banner">
+            <img src="/content/start/images/banner_img_11.png" alt="">
+        </a>
+    </div>
+</aside>

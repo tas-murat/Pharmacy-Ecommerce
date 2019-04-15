@@ -137,17 +137,28 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\FAQController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SellersController.cs" />
     <Compile Include="Areas\Member\Controllers\AccountController.cs" />
+    <Compile Include="Areas\Member\Controllers\CategoryController.cs" />
+    <Compile Include="Areas\Member\Controllers\OrderController.cs" />
+    <Compile Include="Areas\Member\Controllers\PaymentController.cs" />
     <Compile Include="Areas\Member\Controllers\ProfilController.cs" />
     <Compile Include="Areas\Member\Controllers\AJAXController.cs" />
     <Compile Include="Areas\Member\Controllers\CartController.cs" />
     <Compile Include="Areas\Member\Controllers\HomeController.cs" />
     <Compile Include="Areas\Member\Controllers\ProductController.cs" />
     <Compile Include="Areas\Member\Controllers\WishlistController.cs" />
+    <Compile Include="Areas\Member\Helpers\CartList.cs" />
     <Compile Include="Areas\Member\Helpers\CartHelper.cs" />
     <Compile Include="Areas\Member\MemberAreaRegistration.cs" />
+    <Compile Include="Areas\Member\ViewModels\PaymentVM.cs" />
     <Compile Include="Areas\Member\ViewModels\CartVM.cs" />
     <Compile Include="Areas\Member\ViewModels\Cart.cs" />
+    <Compile Include="Areas\Member\ViewModels\CategoryVM.cs" />
+    <Compile Include="Areas\Member\ViewModels\ProductDetailVM.cs" />
+    <Compile Include="Areas\Member\ViewModels\ProductCreatVM.cs" />
+    <Compile Include="Areas\Member\ViewModels\ProductEditVM.cs" />
+    <Compile Include="Areas\Member\ViewModels\MemberFind.cs" />
     <Compile Include="Areas\Member\ViewModels\SingleVM.cs" />
     <Compile Include="Areas\Member\ViewModels\IndexVM.cs" />
     <Compile Include="Areas\Member\ViewModels\FooterVM.cs" />
@@ -156,10 +167,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Tools\IMessage.cs" />
     <Compile Include="ViewModels\HomeVM.cs" />
     <Compile Include="ViewModels\CategoryFAQCategory.cs" />
-    <Compile Include="ViewModels\SendMessage.cs" />
-    <Compile Include="ViewModels\Tools.cs" />
+    <Compile Include="Tools\SendMessage.cs" />
+    <Compile Include="Tools\FailPath.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -4181,12 +4193,21 @@
     <Content Include="Content\member\product\murat\urun33.jpg" />
     <Content Include="Content\start\css\animate.css" />
     <Content Include="Content\start\css\bootstrap.min.css" />
+    <Content Include="Content\start\css\bootstrap.min2.css" />
+    <Content Include="Content\start\css\fAwesome.css" />
     <Content Include="Content\start\css\fontello.css" />
+    <Content Include="Content\start\css\formodal.css" />
     <Content Include="Content\start\css\jquery-ui.min.css" />
     <Content Include="Content\start\css\main.css" />
+    <Content Include="Content\start\css\multi-select.css" />
     <Content Include="Content\start\css\oldie.css" />
     <Content Include="Content\start\css\reset.css" />
+    <Content Include="Content\start\css\reset2.css" />
     <Content Include="Content\start\css\style.css" />
+    <Content Include="Content\start\css\style2.css" />
+    <Content Include="Content\start\css\webfonts\fa-brands-400.svg" />
+    <Content Include="Content\start\css\webfonts\fa-regular-400.svg" />
+    <Content Include="Content\start\css\webfonts\fa-solid-900.svg" />
     <Content Include="Content\start\fonts\fontello.svg" />
     <Content Include="Content\start\images\about_img_1.jpg" />
     <Content Include="Content\start\images\arrivals_img_1.jpg" />
@@ -4377,11 +4398,14 @@
     <Content Include="Content\start\images\tabs_img_2.jpg" />
     <Content Include="Content\start\images\tabs_img_3.jpg" />
     <Content Include="Content\start\images\tabs_img_4.jpg" />
+    <Content Include="Content\start\js\addthis_widget.js" />
     <Content Include="Content\start\js\arcticmodal\jquery.arcticmodal.css" />
     <Content Include="Content\start\js\arcticmodal\jquery.arcticmodal.js" />
     <Content Include="Content\start\js\arcticmodal\loading.gif" />
     <Content Include="Content\start\js\arcticmodal\themes\dark.css" />
     <Content Include="Content\start\js\arcticmodal\themes\simple.css" />
+    <Content Include="Content\start\js\bootstrap.min.js" />
+    <Content Include="Content\start\js\bootstrap.min2.js" />
     <Content Include="Content\start\js\colorpicker\colorpicker.css" />
     <Content Include="Content\start\js\colorpicker\colorpicker.js" />
     <Content Include="Content\start\js\colorpicker\colorpicker\blank.gif" />
@@ -4425,12 +4449,15 @@
     <Content Include="Content\start\js\fancybox\source\jquery.fancybox.css" />
     <Content Include="Content\start\js\fancybox\source\jquery.fancybox.js" />
     <Content Include="Content\start\js\fancybox\source\jquery.fancybox.pack.js" />
+    <Content Include="Content\start\js\formodaljs.js" />
+    <Content Include="Content\start\js\jq.js" />
     <Content Include="Content\start\js\jquery-2.1.1.min.js" />
     <Content Include="Content\start\js\jquery-ui.min.js" />
     <Content Include="Content\start\js\jquery.appear.js" />
     <Content Include="Content\start\js\jquery.countdown.min.js" />
     <Content Include="Content\start\js\jquery.countdown.plugin.min.js" />
     <Content Include="Content\start\js\jquery.elevateZoom-3.0.8.min.js" />
+    <Content Include="Content\start\js\jquery.multi-select.js" />
     <Content Include="Content\start\js\jscart.js" />
     <Content Include="Content\start\js\layerslider\css\blank.gif" />
     <Content Include="Content\start\js\layerslider\css\layerslider.css" />
@@ -5625,6 +5652,35 @@
     <Content Include="Areas\Member\Views\Account\Details.cshtml" />
     <Content Include="Areas\Member\Views\Account\Edit.cshtml" />
     <Content Include="Areas\Member\Views\Account\Index.cshtml" />
+    <Content Include="Areas\Member\Views\Cart\CartEmpty.cshtml" />
+    <Content Include="Areas\Member\Views\Category\Index.cshtml" />
+    <Content Include="Content\start\css\webfonts\fa-brands-400.eot" />
+    <Content Include="Content\start\css\webfonts\fa-brands-400.ttf" />
+    <Content Include="Content\start\css\webfonts\fa-brands-400.woff" />
+    <Content Include="Content\start\css\webfonts\fa-brands-400.woff2" />
+    <Content Include="Content\start\css\webfonts\fa-regular-400.eot" />
+    <Content Include="Content\start\css\webfonts\fa-regular-400.ttf" />
+    <Content Include="Content\start\css\webfonts\fa-regular-400.woff" />
+    <Content Include="Content\start\css\webfonts\fa-regular-400.woff2" />
+    <Content Include="Content\start\css\webfonts\fa-solid-900.eot" />
+    <Content Include="Content\start\css\webfonts\fa-solid-900.ttf" />
+    <Content Include="Content\start\css\webfonts\fa-solid-900.woff" />
+    <Content Include="Content\start\css\webfonts\fa-solid-900.woff2" />
+    <Content Include="Areas\Member\Views\Home\FiltreBar.cshtml" />
+    <Content Include="Areas\Admin\Views\Sellers\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Sellers\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Sellers\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Sellers\Index.cshtml" />
+    <Content Include="Areas\Member\Views\Order\Index.cshtml" />
+    <Content Include="Areas\Member\Views\Profil\ChangePass.cshtml" />
+    <Content Include="Areas\Member\Views\Payment\Index.cshtml" />
+    <Content Include="Areas\Member\Views\Profil\Address.cshtml" />
+    <Content Include="Areas\Member\Views\Profil\CreateAddress.cshtml" />
+    <Content Include="Areas\Member\Views\Products\Create.cshtml" />
+    <Content Include="Areas\Member\Views\Products\Delete.cshtml" />
+    <Content Include="Areas\Member\Views\Products\Details.cshtml" />
+    <Content Include="Areas\Member\Views\Products\Edit.cshtml" />
+    <Content Include="Areas\Member\Views\Products\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Register.cshtml" />
@@ -5637,7 +5693,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Pharmacy.BLL\Pharmacy.BLL.csproj">
-      <Project>{282EC256-7B06-46CA-8010-3693A0040116}</Project>
+      <Project>{282ec256-7b06-46ca-8010-3693a0040116}</Project>
       <Name>Pharmacy.BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Pharmacy.BOL\Pharmacy.BOL.csproj">

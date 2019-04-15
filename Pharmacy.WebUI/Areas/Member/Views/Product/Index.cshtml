@@ -96,18 +96,20 @@
                                     </table>
                                 </div>
                             </div>
-                            <div class="description_section_2 v_centered">
+                            <div class="description_section_2 v_centered meto">
                                 <span class="title">Adet:</span>
                                 <div class="qty min clearfix">
                                     <button class="theme_button" data-direction="minus">&#45;</button>
                                     <input type="text" name="" class="quantityVal" value="1">
                                     <button class="theme_button" data-direction="plus">&#43;</button>
                                 </div>
+                                <input type="hidden" class="proID" value="0" />
                             </div>
                             <div class="buttons_row">
 
-                                <button onclick="functAddCart(@Model.product.ID,1)" class="button_blue middle_btn">Sepete Ekle</button>
-                                <button onclick="functAddFavorite(@Model.product.ID)" class="button_dark_grey def_icon_btn middle_btn add_to_wishlist tooltip_container"><span class="tooltip top ">Favorilere Ekle</span></button>
+                                <button onclick="functAddCartDe(@Model.product.ID,this)" class="button_blue middle_btn">Sepete Ekle</button>
+                                <input type="hidden" value="@Model.product.ID" class="productID" />
+                                <button onclick="functAddFavorite(this)" class="button_dark_grey def_icon_btn middle_btn add_to_wishlist tooltip_container"><span class="tooltip top ">Favorilere Ekle</span></button>
                             </div>
                         </div>
                     </div>
@@ -238,7 +240,7 @@
                                                 <a href="@Url.Action("Index","Product",new {id=hbp.ID })" class="button_dark_grey middle_btn quick_view">Ürün Detayı</a>
                                                 <a onclick="functAddCart(@hbp.ID,1)" style="cursor:pointer" class="button_blue middle_btn add_to_cart">Sepete Ekle</a>
                                             </div>
-                                            <a onclick="functAddFavorite(@hbp.ID)" style="cursor:pointer" class="button_dark_grey middle_btn def_icon_btn add_to_wishlist tooltip_container"><span class="tooltip right">Favorilerden Çıkar</span></a>
+                                            <a onclick="functAddFavorite(this,@hbp.ID)" style="cursor:pointer" class="button_dark_grey middle_btn def_icon_btn add_to_wishlist tooltip_container"><span class="tooltip right">Favorilerden Çıkar</span></a>
                                         </div>
                                     </div>
                                     <div class="label_hot">Hot</div>

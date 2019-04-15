@@ -1,9 +1,6 @@
 ﻿@using Pharmacy.BOL.Entities
 @model IEnumerable<Product>
 
-@{
-    ViewBag.Title = "Index";
-}
 
 <div class="secondary_page_wrapper">
 
@@ -25,40 +22,12 @@
                     <div class="left_side v_centered">
                         <a href="@Url.Action("Create","Account")" class="button_blue"> Yeni Ürün Ekle</a>
 
-                        <span>Show:</span>
+                        <span></span>
 
-                        <div class="custom_select">
-
-                            <select name="">
-
-                                <option value="10">10</option>
-                                <option value="9">9</option>
-                                <option value="8">8</option>
-                                <option value="7">7</option>
-                                <option value="6">6</option>
-                                <option value="5">5</option>
-                                <option value="4">4</option>
-                                <option value="3">3</option>
-                                <option value="2">2</option>
-                                <option value="1">1</option>
-
-                            </select>
-
-                        </div>
 
                     </div>
 
                     <div class="right_side">
-
-                        <ul class="pags">
-
-                            <li><a href="#"></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#"></a></li>
-
-                        </ul>
 
                     </div>
 
@@ -91,17 +60,11 @@
 
                                     </td>
                                     <td data-title="Price" class="total">@hbf.price</td>
-                                    <td data-title="Quantity">
-                                        <div class="qty min clearfix">
-                                            <button class="theme_button" data-direction="minus">&#45;</button>
-                                            <input type="text" name="" value="1">
-                                            <button class="theme_button" data-direction="plus">&#43;</button>
-                                        </div>
-                                    </td>
+                                    <td data-title="Price" class="total">@hbf.stock</td>
                                     <td data-title="Action">
                                         <ul class="buttons_col">
                                             <li>
-                                                <a href="@Url.Action("Edit","Account",new {id=hbf.ID })" class="button_blue">Düzenle</a>
+                                                <a href="@Url.Action("Details","Account",new {id=hbf.ID })" class="button_blue">Detay</a> <a href="@Url.Action("Edit","Account",new {id=hbf.ID })" class="button_blue">Düzenle</a>
                                             </li>
                                             <li>
                                                 <a href="@Url.Action("Delete","Account",new {id=hbf.ID })" class="button_dark_grey">Sil</a>
@@ -119,44 +82,9 @@
 
                 <div class="bottom_box on_the_sides">
 
-                    <div class="left_side v_centered">
-
-                        <p class="visible_pages">Showing 1 to 10 of 30 (3 pages)</p>
-
-                        <span>Show:</span>
-
-                        <div class="custom_select">
-
-                            <select name="">
-
-                                <option value="10">10</option>
-                                <option value="9">9</option>
-                                <option value="8">8</option>
-                                <option value="7">7</option>
-                                <option value="6">6</option>
-                                <option value="5">5</option>
-                                <option value="4">4</option>
-                                <option value="3">3</option>
-                                <option value="2">2</option>
-                                <option value="1">1</option>
-
-                            </select>
-
-                        </div>
-
-                    </div>
 
                     <div class="right_side">
 
-                        <ul class="pags">
-
-                            <li><a href="#"></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#"></a></li>
-
-                        </ul>
 
                     </div>
 
